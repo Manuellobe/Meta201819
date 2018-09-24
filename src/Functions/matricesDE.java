@@ -4,11 +4,13 @@ import java.util.StringTokenizer;
 
 public class matricesDE {
 
-    private int dimension;
 
+    // Atributos basicos para el almacenamiento de los datos
+    private int dimension;
     private int[][] fluxMatrix;
     private int[][] distMatrix;
 
+    // Constructor
     public matricesDE(String fileName){
 
         try{
@@ -21,6 +23,7 @@ public class matricesDE {
 
     }
 
+    // Getters & Setters
     public int[][] getfluxMatrix(){
         return fluxMatrix;
     }
@@ -33,8 +36,11 @@ public class matricesDE {
         return dimension;
     }
 
+
+    // Carga los datos desde fichero y los almacenamos en matrices
     private void loadData(String file) throws java.io.IOException{
 
+        // Ruta origen de datos
         File dataFile = new File("src/Datos/" + file);
 
         BufferedReader br = new BufferedReader(new FileReader(dataFile));
@@ -45,10 +51,13 @@ public class matricesDE {
 
         StringTokenizer splitLine = new StringTokenizer(currentLine);
 
-        dimension = Integer.parseInt(splitLine.nextToken());
 
+        // Inicializacion de parametros
+        dimension = Integer.parseInt(splitLine.nextToken());
         fluxMatrix = new int[dimension][dimension];
         distMatrix = new int[dimension][dimension];
+
+        // Leemos los datos de la matriz de flujo
 
         br.readLine();
 
@@ -66,6 +75,8 @@ public class matricesDE {
 
         }
 
+        // Leemos los datos de la matriz de distancias
+
         br.readLine();
 
         for(int i = 0; i < dimension; i++){
@@ -82,43 +93,6 @@ public class matricesDE {
 
         }
 
-        //DEBUG
-        /*
-
-        System.out.printf("Dimension: %d%n", dimension);
-        System.out.print("Matriz de flujo:");
-        System.out.println();
-
-        for(int i = 0; i <dimension; i++){
-
-            for(int j = 0; j < dimension; j++){
-
-                System.out.printf("%d ", fluxMatrix[i][j]);
-
-            }
-
-            System.out.println();
-
-        }
-
-        System.out.println();
-
-        System.out.print("Matriz de distancia:");
-        System.out.println();
-
-        for(int i = 0; i <dimension; i++){
-
-            for(int j = 0; j < dimension; j++){
-
-                System.out.printf("%d ", distMatrix[i][j]);
-
-            }
-
-            System.out.println();
-
-        }
-
-        */
     }
 
 

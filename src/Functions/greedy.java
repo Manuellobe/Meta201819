@@ -7,10 +7,11 @@ import java.util.Comparator;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class Sortbyvalue implements Comparator<Pair<Integer, Integer>>
+
+// Comparador para ordenar pares de enteros de mayor a menor
+class SortGreaterToLesser implements Comparator<Pair<Integer, Integer>>
 {
-    // Used for sorting in ascending order of
-    // roll number
+
     public int compare(Pair<Integer, Integer> a, Pair<Integer, Integer> b)
     {
         if (a.getValue() < b.getValue()) {
@@ -23,76 +24,116 @@ class Sortbyvalue implements Comparator<Pair<Integer, Integer>>
     }
 }
 
+// Comparador para ordenar pares de enteros de menor a mayor
+class SortLesserToGreater implements Comparator<Pair<Integer, Integer>>
+{
+
+    public int compare(Pair<Integer, Integer> a, Pair<Integer, Integer> b)
+    {
+        if (a.getValue() < b.getValue()) {
+            return -1;
+        } else if (a.getValue() > b.getValue()){
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+}
+
 public class greedy {
 
+    // Dimension de las matrices cuadradas
     private int dimension;
+
+    // Vectores de flujo y discancia acumulados ordenados
     private ArrayList<Pair<Integer, Integer>> orderedFluxValueVector;
-    private boolean[] availableTerminals;
+    private ArrayList<Pair<Integer, Integer>> orderedDistValueVector;
+
+    // Vector de representacion de la solucion
     private int[] solutionRepresentation;
 
+
+    // Constructor
     public greedy(int nDimension){
 
         dimension = nDimension;
         orderedFluxValueVector = new ArrayList<Pair<Integer, Integer>>();
+        orderedDistValueVector = new ArrayList<Pair<Integer, Integer>>();
         solutionRepresentation = new int[nDimension];
-        availableTerminals = new boolean[nDimension];
-        Arrays.fill(availableTerminals, Boolean.TRUE);
 
     }
 
     public int greedySolution(int[][] fluxMatrix, int[][] distMatrix){
 
 
-        //Calculamos el valor de flujo de cada terminal
+        //Calculamos el flujo y la distancia acumulada para cada terminal
 
-        int tempValue;
+        int tempFlux, tempDist;
 
         for(int i = 0; i < dimension; i++){
 
-            tempValue = 0;
+            tempFlux = 0;
+            tempDist = 0;
 
+            // Calculamos el valor acumulado correspondiente
             for(int j = 0; j < dimension; j++){
 
-                tempValue += fluxMatrix[i][j];
+                tempFlux += fluxMatrix[i][j];
+                tempDist += distMatrix[i][j];
 
             }
 
-            orderedFluxValueVector.add(new Pair<Integer, Integer>(i, tempValue));
+            // Añadimos el valor acumulado correspondiente a cada terminar
+            orderedFluxValueVector.add(new Pair<Integer, Integer>(i, tempFlux));
+            orderedDistValueVector.add(new Pair<Integer, Integer>(i, tempDist));
 
         }
 
-        Collections.sort(orderedFluxValueVector, new Sortbyvalue());
+        // Una vez obtenemos todos los valores acumulados, estos se ordenan
+        Collections.sort(orderedFluxValueVector, new SortGreaterToLesser());
+        Collections.sort(orderedDistValueVector, new SortLesserToGreater());
 
-        //Pos, Value
-        int currentBestPos;
-        int currentBestValue;
+
+
+        // Asignamos al vector solucion la primera solucion
+        int currentTerminal;
+
         int solutionValue = 0;
 
         for(int i = 0; i < dimension; i++){
 
-            currentBestPos = currentBestValue = -99;
+            currentTerminal = orderedFluxValueVector.get(i).getKey();
 
-            for(int j = 0; j < dimension; j++){
+            solutionRepresentation[currentTerminal] = orderedDistValueVector.get(i).getKey();
 
-                if(availableTerminals[j] && i != j){
+        }
 
-                    if(distMatrix[i][j] == 0){
-                        tempValue = fluxMatrix[i][j];
-                    }
-                    else
-                        tempValue = fluxMatrix[i][j] / distMatrix[i][j];
+        // Comprobamos que ningun terminal sea emparejado con si mismo
 
-                    if(tempValue > currentBestValue){
-                        currentBestPos = j;
-                        currentBestValue = tempValue;
-                    }
+        int tempSwap;
+
+        for(int i = 0; i < dimension; i++){
+
+            // En caso de que un terminal sea conectado a si mismo, lo intercambiamos con el anterior
+            if(solutionRepresentation[i] == i){
+
+                tempSwap = solutionRepresentation[i];
+
+                // En caso de que ocurra en la posicion inicial, se intercambia con la posicion posterior
+                if(i == 0){
+
+                    solutionRepresentation[i] = solutionRepresentation[i+1];
+                    solutionRepresentation[i+1] = tempSwap;
+
+                }else{
+
+                    solutionRepresentation[i] = solutionRepresentation[i-1];
+                    solutionRepresentation[i-1] = tempSwap;
+                    i--;
 
                 }
 
             }
-
-            solutionRepresentation[i] = currentBestPos;
-            availableTerminals[currentBestPos] = false;
 
         }
 
@@ -108,8 +149,9 @@ public class greedy {
 
         }
 
+        // Comprobacion por consola de que ningun terminal ha sido emparejado con sigo mismo || Borrar posteriormente
         for(int i = 0; i < dimension; i++){
-            System.out.print(solutionRepresentation[i] + " ");
+            System.out.printf("%d | %d  \n", i, solutionRepresentation[i]);
         }
 
         System.out.println();
