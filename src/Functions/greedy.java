@@ -19,7 +19,7 @@ class SortGreaterToLesser implements Comparator<Pair<Integer, Integer>>
         } else if (a.getValue() > b.getValue()){
             return -1;
         } else {
-            return 0;
+            return 1;
         }
     }
 }
@@ -35,7 +35,7 @@ class SortLesserToGreater implements Comparator<Pair<Integer, Integer>>
         } else if (a.getValue() > b.getValue()){
             return 1;
         } else {
-            return 0;
+            return -1;
         }
     }
 }
@@ -143,7 +143,8 @@ public class greedy {
 
             for(int j = 0; j < dimension; j++){
 
-                solutionValue += fluxMatrix[i][j] * distMatrix[solutionRepresentation[i]][solutionRepresentation[j]];
+                if(i != j)
+                    solutionValue += fluxMatrix[i][j] * distMatrix[solutionRepresentation[i]][solutionRepresentation[j]];
 
             }
 
