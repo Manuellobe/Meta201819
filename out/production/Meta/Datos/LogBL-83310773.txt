@@ -1,0 +1,89 @@
+Logger
+ 
+ Generando solucion aleatoria inicial: 
+ - Vector solucion: 0 | 61 | 52 | 13 | 154 | 75 | 46 | 87 | 138 | 209 | 1010 | 1411 | 312 | 013 | 1714 | 1615 | 216 | 917 | 1818 | 1119 | 1220 | 2121 | 19
+ - Coste: 13448
+
+Inicio bucle busqueda local primer mejor:
+La diferencia de coste tras la permutacion es: 176
+La solucion actual es mejor que la global, intercambio los valores 0, 2.
+La diferencia de coste tras la permutacion es: 770
+La solucion actual es mejor que la global, intercambio los valores 1, 3.
+La diferencia de coste tras la permutacion es: 86
+La solucion actual es mejor que la global, intercambio los valores 2, 8.
+La diferencia de coste tras la permutacion es: 114
+La solucion actual es mejor que la global, intercambio los valores 3, 0.
+La diferencia de coste tras la permutacion es: 2186
+La solucion actual es mejor que la global, intercambio los valores 4, 14.
+La diferencia de coste tras la permutacion es: 174
+La solucion actual es mejor que la global, intercambio los valores 5, 4.
+La diferencia de coste tras la permutacion es: 180
+La solucion actual es mejor que la global, intercambio los valores 6, 13.
+La diferencia de coste tras la permutacion es: 158
+La solucion actual es mejor que la global, intercambio los valores 7, 10.
+La diferencia de coste tras la permutacion es: 456
+La solucion actual es mejor que la global, intercambio los valores 8, 1.
+La diferencia de coste tras la permutacion es: 212
+La solucion actual es mejor que la global, intercambio los valores 9, 0.
+La diferencia de coste tras la permutacion es: 466
+La solucion actual es mejor que la global, intercambio los valores 10, 3.
+La diferencia de coste tras la permutacion es: 126
+La solucion actual es mejor que la global, intercambio los valores 11, 15.
+La diferencia de coste tras la permutacion es: 352
+La solucion actual es mejor que la global, intercambio los valores 12, 1.
+La diferencia de coste tras la permutacion es: 56
+La solucion actual es mejor que la global, intercambio los valores 16, 8.
+La diferencia de coste tras la permutacion es: 116
+La solucion actual es mejor que la global, intercambio los valores 17, 2.
+La diferencia de coste tras la permutacion es: 94
+La solucion actual es mejor que la global, intercambio los valores 19, 21.
+La diferencia de coste tras la permutacion es: 128
+La solucion actual es mejor que la global, intercambio los valores 20, 7.
+La diferencia de coste tras la permutacion es: 20
+La solucion actual es mejor que la global, intercambio los valores 21, 15.
+La diferencia de coste tras la permutacion es: 200
+La solucion actual es mejor que la global, intercambio los valores 2, 4.
+La diferencia de coste tras la permutacion es: 196
+La solucion actual es mejor que la global, intercambio los valores 3, 7.
+La diferencia de coste tras la permutacion es: 66
+La solucion actual es mejor que la global, intercambio los valores 4, 3.
+La diferencia de coste tras la permutacion es: 56
+La solucion actual es mejor que la global, intercambio los valores 7, 3.
+La diferencia de coste tras la permutacion es: 40
+La solucion actual es mejor que la global, intercambio los valores 8, 7.
+La diferencia de coste tras la permutacion es: 22
+La solucion actual es mejor que la global, intercambio los valores 11, 12.
+La diferencia de coste tras la permutacion es: 38
+La solucion actual es mejor que la global, intercambio los valores 16, 7.
+La diferencia de coste tras la permutacion es: 42
+La solucion actual es mejor que la global, intercambio los valores 17, 11.
+La diferencia de coste tras la permutacion es: 22
+La solucion actual es mejor que la global, intercambio los valores 19, 8.
+La diferencia de coste tras la permutacion es: 60
+La solucion actual es mejor que la global, intercambio los valores 7, 8.
+Se han realizado las 50000 iteraciones o se ha explorado todo el espacio de busqueda.
+Solucion final:
+0 | 10
+1 | 0
+2 | 4
+3 | 13
+4 | 21
+5 | 16
+6 | 17
+7 | 19
+8 | 15
+9 | 5
+10 | 1
+11 | 20
+12 | 2
+13 | 8
+14 | 7
+15 | 12
+16 | 9
+17 | 6
+18 | 11
+19 | 18
+20 | 14
+21 | 3
+
+Coste final: 6836.

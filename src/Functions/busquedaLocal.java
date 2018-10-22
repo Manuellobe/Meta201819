@@ -79,16 +79,12 @@ public class busquedaLocal {
                 // Comprobamos la mascara para evitar comprobar soluciones sin mejora
                 if(DLB.get(i) == false){
 
-                    logger.add("La posicion " + i + " de la mascara DLB es 0, procedo a las comprobaciones.\n");
-
                     // Probamos todas las combinaciones con la i actual
                     for(int j = 0; j < dimension; j++){
 
                         // Permutamos posiciones || operador de intercambio
                         tempSolution.set(i, bestSolution.get(j));
                         tempSolution.set(j, bestSolution.get(i));
-
-                        logger.add("Intercambio de posicion entre los valores " + i + " y " + j + "\n");
 
                         int tempCost = 0;
 
@@ -105,12 +101,11 @@ public class busquedaLocal {
 
                         }
 
-                        logger.add("La diferencia de coste tras la permutacion es: " + tempCost + "\n");
-
                         // Si el coste es menor
                         if (tempCost > 0){
 
-                            logger.add("La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB\n");
+                            logger.add("La diferencia de coste tras la permutacion es: " + tempCost + "\n");
+                            logger.add("La solucion actual es mejor que la global, intercambio los valores " + i + ", " + j + ".\n");
 
                             // Reemplazamos la mejor solucion con la nueva mejor solucion
                             bestSolution.set(i, tempSolution.get(i));
@@ -127,7 +122,6 @@ public class busquedaLocal {
                         // En caso de que la solucion sea peor
                         else{
 
-                            logger.add("La solucion actual es peor que la global, deshago la permutacion\n");
                             // Restablecemos la solucion temporal a la mejor solucion
                             tempSolution.set(i, bestSolution.get(i));
                             tempSolution.set(j, bestSolution.get(j));
@@ -147,21 +141,18 @@ public class busquedaLocal {
                         if(j == dimension-1){
 
                             DLB.set(i, true);
-                            logger.add("Bit " + i + " actualizado al valor 1.\n");
 
                         }
 
                     }
 
                 }
-                else
-                    logger.add("La posicion " + i + " de la mascara DLB es 1, paso a la siguiente posicion.\n");
             }
 
         }
 
-        logger.add("Se han realizado las 50000 iteraciones o se ha explorado todo el espacio de busqueda.\n");
-        logger.add("Solucion final:");
+        logger.add("Se ha explorado todo el espacio de busqueda.\n");
+        logger.add("Solucion final:\n");
         for(int i = 0; i < dimension; i++){
 
             logger.add(i + " | " + bestSolution.get(i) + "\n");
@@ -176,7 +167,7 @@ public class busquedaLocal {
         PrintWriter pw = null;
         try
         {
-            fichero = new FileWriter("src/Datos/LogBL.txt");
+            fichero = new FileWriter("src/Datos/LogBL" + "-"+ randomSeed +".txt");
             pw = new PrintWriter(fichero);
 
             for (String linea: logger) {

@@ -58,7 +58,8 @@ La solucion actual es mejor que la global, intercambio los valores 14, 16.
 La diferencia de coste tras la permutacion es: 82
 La solucion actual es mejor que la global, intercambio los valores 19, 7.
 Se han realizado las 50000 iteraciones o se ha explorado todo el espacio de busqueda.
-Solucion final:0 | 13
+Solucion final:
+0 | 13
 1 | 3
 2 | 10
 3 | 4
