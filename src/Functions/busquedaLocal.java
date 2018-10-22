@@ -1,25 +1,23 @@
 package Functions;
 
-import java.io.FileWriter;
-import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.BitSet;
 import java.util.Collections;
 import java.util.Random;
-import java.util.BitSet;
+import java.io.*;
 
-public class enfriamientoSimulado {
+public class busquedaLocal {
 
     private int dimension;
     private int randomSeed;
-    private float temperature;
     private ArrayList<String> logger;
 
-    public enfriamientoSimulado(int nDimension){
+    public busquedaLocal(int nDimension){
 
-        temperature = 5.0f;
         dimension = nDimension;
         randomSeed = 77383310;
         logger = new ArrayList<>();
+
     }
 
     public int enfriamientoSolucion(int[][] fluxMatrix, int[][] distMatrix){
@@ -178,7 +176,7 @@ public class enfriamientoSimulado {
         PrintWriter pw = null;
         try
         {
-            fichero = new FileWriter("src/Datos/LogES.txt");
+            fichero = new FileWriter("src/Datos/LogBL.txt");
             pw = new PrintWriter(fichero);
 
             for (String linea: logger) {
@@ -200,5 +198,8 @@ public class enfriamientoSimulado {
         // Devolvemos el mejor coste obtenido
         return bestCost;
     }
+
+
+
 
 }

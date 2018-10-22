@@ -1,0 +1,2388 @@
+Logger
+ 
+ Generando solucion aleatoria inicial: 
+ - Vector solucion: 0 | 141 | 212 | 133 | 74 | 35 | 26 | 157 | 48 | 209 | 110 | 1711 | 1012 | 513 | 1214 | 1915 | 1616 | 1117 | 018 | 919 | 820 | 1821 | 6
+ - Coste: 13000
+
+Inicio bucle busqueda local primer mejor:
+La posicion 0 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 0 y 0
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 1
+La diferencia de coste tras la permutacion es: -478
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 2
+La diferencia de coste tras la permutacion es: -558
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 3
+La diferencia de coste tras la permutacion es: -290
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 4
+La diferencia de coste tras la permutacion es: -1270
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 5
+La diferencia de coste tras la permutacion es: -1214
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 6
+La diferencia de coste tras la permutacion es: -1332
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 7
+La diferencia de coste tras la permutacion es: -744
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 8
+La diferencia de coste tras la permutacion es: 66
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 1 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 1 y 0
+La diferencia de coste tras la permutacion es: -4338
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 1
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 2
+La diferencia de coste tras la permutacion es: -366
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 3
+La diferencia de coste tras la permutacion es: -478
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 4
+La diferencia de coste tras la permutacion es: 2526
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 2 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 2 y 0
+La diferencia de coste tras la permutacion es: -338
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 1
+La diferencia de coste tras la permutacion es: -2708
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 2
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 3
+La diferencia de coste tras la permutacion es: 40
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 3 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 3 y 0
+La diferencia de coste tras la permutacion es: 44
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 4 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 4 y 0
+La diferencia de coste tras la permutacion es: -1132
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 1
+La diferencia de coste tras la permutacion es: -2764
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 2
+La diferencia de coste tras la permutacion es: -560
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 3
+La diferencia de coste tras la permutacion es: 194
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 5 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 5 y 0
+La diferencia de coste tras la permutacion es: -4408
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 1
+La diferencia de coste tras la permutacion es: -418
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 2
+La diferencia de coste tras la permutacion es: -2224
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 3
+La diferencia de coste tras la permutacion es: -2484
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 4
+La diferencia de coste tras la permutacion es: -1700
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 5
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 6
+La diferencia de coste tras la permutacion es: -158
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 7
+La diferencia de coste tras la permutacion es: -276
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 8
+La diferencia de coste tras la permutacion es: -5544
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 9
+La diferencia de coste tras la permutacion es: -630
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 10
+La diferencia de coste tras la permutacion es: -6040
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 11
+La diferencia de coste tras la permutacion es: -2238
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 12
+La diferencia de coste tras la permutacion es: -100
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 13
+La diferencia de coste tras la permutacion es: 656
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 6 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 6 y 0
+La diferencia de coste tras la permutacion es: -1370
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 1
+La diferencia de coste tras la permutacion es: -520
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 2
+La diferencia de coste tras la permutacion es: -1188
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 3
+La diferencia de coste tras la permutacion es: -2332
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 4
+La diferencia de coste tras la permutacion es: -4108
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 5
+La diferencia de coste tras la permutacion es: -404
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 6
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 7
+La diferencia de coste tras la permutacion es: -632
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 8
+La diferencia de coste tras la permutacion es: -2810
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 9
+La diferencia de coste tras la permutacion es: -618
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 10
+La diferencia de coste tras la permutacion es: -3608
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 11
+La diferencia de coste tras la permutacion es: -938
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 12
+La diferencia de coste tras la permutacion es: -226
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 13
+La diferencia de coste tras la permutacion es: -100
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 14
+La diferencia de coste tras la permutacion es: -2172
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 15
+La diferencia de coste tras la permutacion es: -338
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 16
+La diferencia de coste tras la permutacion es: -222
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 17
+La diferencia de coste tras la permutacion es: -322
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 18
+La diferencia de coste tras la permutacion es: -140
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 19
+La diferencia de coste tras la permutacion es: -2092
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 20
+La diferencia de coste tras la permutacion es: -3640
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 6 y 21
+La diferencia de coste tras la permutacion es: -852
+La solucion actual es peor que la global, deshago la permutacion
+Bit 6 actualizado al valor 1.
+La posicion 7 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 7 y 0
+La diferencia de coste tras la permutacion es: -1668
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 1
+La diferencia de coste tras la permutacion es: -2136
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 2
+La diferencia de coste tras la permutacion es: 182
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 8 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 8 y 0
+La diferencia de coste tras la permutacion es: -26
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 1
+La diferencia de coste tras la permutacion es: -2206
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 2
+La diferencia de coste tras la permutacion es: 10
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 9 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 9 y 0
+La diferencia de coste tras la permutacion es: -184
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 1
+La diferencia de coste tras la permutacion es: -2000
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 2
+La diferencia de coste tras la permutacion es: -2020
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 3
+La diferencia de coste tras la permutacion es: -2408
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 4
+La diferencia de coste tras la permutacion es: -584
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 5
+La diferencia de coste tras la permutacion es: -606
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 6
+La diferencia de coste tras la permutacion es: -618
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 7
+La diferencia de coste tras la permutacion es: 208
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 10 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 10 y 0
+La diferencia de coste tras la permutacion es: -1910
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 1
+La diferencia de coste tras la permutacion es: -2024
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 2
+La diferencia de coste tras la permutacion es: -1244
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 3
+La diferencia de coste tras la permutacion es: -1070
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 4
+La diferencia de coste tras la permutacion es: -1090
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 5
+La diferencia de coste tras la permutacion es: -5704
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 6
+La diferencia de coste tras la permutacion es: -3608
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 7
+La diferencia de coste tras la permutacion es: -88
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 8
+La diferencia de coste tras la permutacion es: -1278
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 9
+La diferencia de coste tras la permutacion es: -250
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 10
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 11
+La diferencia de coste tras la permutacion es: -36
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 12
+La diferencia de coste tras la permutacion es: -486
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 13
+La diferencia de coste tras la permutacion es: -1386
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 14
+La diferencia de coste tras la permutacion es: -926
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 15
+La diferencia de coste tras la permutacion es: -564
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 16
+La diferencia de coste tras la permutacion es: -256
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 17
+La diferencia de coste tras la permutacion es: -162
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 18
+La diferencia de coste tras la permutacion es: -384
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 19
+La diferencia de coste tras la permutacion es: -840
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 20
+La diferencia de coste tras la permutacion es: -480
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 10 y 21
+La diferencia de coste tras la permutacion es: -664
+La solucion actual es peor que la global, deshago la permutacion
+Bit 10 actualizado al valor 1.
+La posicion 11 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 11 y 0
+La diferencia de coste tras la permutacion es: -236
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 1
+La diferencia de coste tras la permutacion es: -1552
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 2
+La diferencia de coste tras la permutacion es: -84
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 3
+La diferencia de coste tras la permutacion es: -48
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 4
+La diferencia de coste tras la permutacion es: -342
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 5
+La diferencia de coste tras la permutacion es: -2676
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 6
+La diferencia de coste tras la permutacion es: -938
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 7
+La diferencia de coste tras la permutacion es: -100
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 8
+La diferencia de coste tras la permutacion es: -180
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 9
+La diferencia de coste tras la permutacion es: -392
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 10
+La diferencia de coste tras la permutacion es: -36
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 11
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 12
+La diferencia de coste tras la permutacion es: -198
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 13
+La diferencia de coste tras la permutacion es: -1006
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 14
+La diferencia de coste tras la permutacion es: 548
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 12 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 12 y 0
+La diferencia de coste tras la permutacion es: -1636
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 1
+La diferencia de coste tras la permutacion es: -782
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 2
+La diferencia de coste tras la permutacion es: -1480
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 3
+La diferencia de coste tras la permutacion es: -2284
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 4
+La diferencia de coste tras la permutacion es: -1970
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 5
+La diferencia de coste tras la permutacion es: -520
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 6
+La diferencia de coste tras la permutacion es: -226
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 7
+La diferencia de coste tras la permutacion es: -828
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 8
+La diferencia de coste tras la permutacion es: -1704
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 9
+La diferencia de coste tras la permutacion es: -1038
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 10
+La diferencia de coste tras la permutacion es: -486
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 11
+La diferencia de coste tras la permutacion es: -22
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 12
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 13
+La diferencia de coste tras la permutacion es: -64
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 14
+La diferencia de coste tras la permutacion es: -284
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 15
+La diferencia de coste tras la permutacion es: -1564
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 16
+La diferencia de coste tras la permutacion es: 284
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 13 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 13 y 0
+La diferencia de coste tras la permutacion es: -4306
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 1
+La diferencia de coste tras la permutacion es: -562
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 2
+La diferencia de coste tras la permutacion es: 34
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 14 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 14 y 0
+La diferencia de coste tras la permutacion es: -1282
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 1
+La diferencia de coste tras la permutacion es: -4294
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 2
+La diferencia de coste tras la permutacion es: -1322
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 3
+La diferencia de coste tras la permutacion es: -594
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 4
+La diferencia de coste tras la permutacion es: -416
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 5
+La diferencia de coste tras la permutacion es: -4626
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 6
+La diferencia de coste tras la permutacion es: -4328
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 7
+La diferencia de coste tras la permutacion es: -150
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 8
+La diferencia de coste tras la permutacion es: -426
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 9
+La diferencia de coste tras la permutacion es: -898
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 10
+La diferencia de coste tras la permutacion es: -1156
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 11
+La diferencia de coste tras la permutacion es: -548
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 12
+La diferencia de coste tras la permutacion es: -972
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 13
+La diferencia de coste tras la permutacion es: -1612
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 14
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 15
+La diferencia de coste tras la permutacion es: -844
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 16
+La diferencia de coste tras la permutacion es: 60
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 15 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 15 y 0
+La diferencia de coste tras la permutacion es: -3062
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 1
+La diferencia de coste tras la permutacion es: -2442
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 2
+La diferencia de coste tras la permutacion es: -288
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 3
+La diferencia de coste tras la permutacion es: -4890
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 4
+La diferencia de coste tras la permutacion es: -972
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 5
+La diferencia de coste tras la permutacion es: -5528
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 6
+La diferencia de coste tras la permutacion es: -1038
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 7
+La diferencia de coste tras la permutacion es: 284
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 16 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 16 y 0
+La diferencia de coste tras la permutacion es: -326
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 1
+La diferencia de coste tras la permutacion es: -2106
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 2
+La diferencia de coste tras la permutacion es: 210
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 17 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 17 y 0
+La diferencia de coste tras la permutacion es: -558
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 1
+La diferencia de coste tras la permutacion es: -5006
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 2
+La diferencia de coste tras la permutacion es: -1162
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 3
+La diferencia de coste tras la permutacion es: -1150
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 4
+La diferencia de coste tras la permutacion es: -1024
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 5
+La diferencia de coste tras la permutacion es: -1048
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 6
+La diferencia de coste tras la permutacion es: -2872
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 7
+La diferencia de coste tras la permutacion es: -120
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 8
+La diferencia de coste tras la permutacion es: -148
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 9
+La diferencia de coste tras la permutacion es: -190
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 10
+La diferencia de coste tras la permutacion es: -162
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 11
+La diferencia de coste tras la permutacion es: -618
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 12
+La diferencia de coste tras la permutacion es: -708
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 13
+La diferencia de coste tras la permutacion es: -3884
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 14
+La diferencia de coste tras la permutacion es: -600
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 15
+La diferencia de coste tras la permutacion es: -550
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 16
+La diferencia de coste tras la permutacion es: -398
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 17
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 18
+La diferencia de coste tras la permutacion es: -978
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 19
+La diferencia de coste tras la permutacion es: -156
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 20
+La diferencia de coste tras la permutacion es: -70
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 21
+La diferencia de coste tras la permutacion es: 96
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 18 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 18 y 0
+La diferencia de coste tras la permutacion es: -438
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 1
+La diferencia de coste tras la permutacion es: -3180
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 2
+La diferencia de coste tras la permutacion es: -836
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 3
+La diferencia de coste tras la permutacion es: -1116
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 4
+La diferencia de coste tras la permutacion es: -1190
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 5
+La diferencia de coste tras la permutacion es: -2034
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 6
+La diferencia de coste tras la permutacion es: -290
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 7
+La diferencia de coste tras la permutacion es: -196
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 8
+La diferencia de coste tras la permutacion es: -592
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 9
+La diferencia de coste tras la permutacion es: 14
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 19 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 19 y 0
+La diferencia de coste tras la permutacion es: -546
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 1
+La diferencia de coste tras la permutacion es: -2436
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 2
+La diferencia de coste tras la permutacion es: -1124
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 3
+La diferencia de coste tras la permutacion es: -1622
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 4
+La diferencia de coste tras la permutacion es: -1558
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 5
+La diferencia de coste tras la permutacion es: -3316
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 6
+La diferencia de coste tras la permutacion es: -1916
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 7
+La diferencia de coste tras la permutacion es: 118
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 20 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 20 y 0
+La diferencia de coste tras la permutacion es: -3246
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 1
+La diferencia de coste tras la permutacion es: -4730
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 2
+La diferencia de coste tras la permutacion es: -482
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 3
+La diferencia de coste tras la permutacion es: -444
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 4
+La diferencia de coste tras la permutacion es: -1078
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 5
+La diferencia de coste tras la permutacion es: -5702
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 6
+La diferencia de coste tras la permutacion es: -2830
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 7
+La diferencia de coste tras la permutacion es: -456
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 8
+La diferencia de coste tras la permutacion es: -28
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 9
+La diferencia de coste tras la permutacion es: -488
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 10
+La diferencia de coste tras la permutacion es: -886
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 11
+La diferencia de coste tras la permutacion es: -656
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 12
+La diferencia de coste tras la permutacion es: -1726
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 13
+La diferencia de coste tras la permutacion es: -6102
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 14
+La diferencia de coste tras la permutacion es: -52
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 15
+La diferencia de coste tras la permutacion es: -48
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 16
+La diferencia de coste tras la permutacion es: -136
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 17
+La diferencia de coste tras la permutacion es: -1100
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 18
+La diferencia de coste tras la permutacion es: -260
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 19
+La diferencia de coste tras la permutacion es: 50
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 21 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 21 y 0
+La diferencia de coste tras la permutacion es: -3242
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 1
+La diferencia de coste tras la permutacion es: -5084
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 2
+La diferencia de coste tras la permutacion es: -2718
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 3
+La diferencia de coste tras la permutacion es: -1324
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 4
+La diferencia de coste tras la permutacion es: -1168
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 5
+La diferencia de coste tras la permutacion es: -1958
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 6
+La diferencia de coste tras la permutacion es: -4508
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 7
+La diferencia de coste tras la permutacion es: -686
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 8
+La diferencia de coste tras la permutacion es: -1784
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 9
+La diferencia de coste tras la permutacion es: -558
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 10
+La diferencia de coste tras la permutacion es: -940
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 11
+La diferencia de coste tras la permutacion es: -1676
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 12
+La diferencia de coste tras la permutacion es: -2922
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 13
+La diferencia de coste tras la permutacion es: -3358
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 14
+La diferencia de coste tras la permutacion es: -116
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 15
+La diferencia de coste tras la permutacion es: 200
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 0 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 0 y 0
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 1
+La diferencia de coste tras la permutacion es: -3708
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 2
+La diferencia de coste tras la permutacion es: -396
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 3
+La diferencia de coste tras la permutacion es: -698
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 4
+La diferencia de coste tras la permutacion es: -1482
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 5
+La diferencia de coste tras la permutacion es: -2754
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 6
+La diferencia de coste tras la permutacion es: -1182
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 7
+La diferencia de coste tras la permutacion es: -626
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 8
+La diferencia de coste tras la permutacion es: -1698
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 9
+La diferencia de coste tras la permutacion es: -2816
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 10
+La diferencia de coste tras la permutacion es: -1204
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 11
+La diferencia de coste tras la permutacion es: -632
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 12
+La diferencia de coste tras la permutacion es: -1906
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 13
+La diferencia de coste tras la permutacion es: -1998
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 14
+La diferencia de coste tras la permutacion es: -2938
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 15
+La diferencia de coste tras la permutacion es: -4202
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 16
+La diferencia de coste tras la permutacion es: -2428
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 17
+La diferencia de coste tras la permutacion es: -2198
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 18
+La diferencia de coste tras la permutacion es: -322
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 19
+La diferencia de coste tras la permutacion es: -958
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 20
+La diferencia de coste tras la permutacion es: -3878
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 0 y 21
+La diferencia de coste tras la permutacion es: -2942
+La solucion actual es peor que la global, deshago la permutacion
+Bit 0 actualizado al valor 1.
+La posicion 1 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 1 y 0
+La diferencia de coste tras la permutacion es: -3708
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 1
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 2
+La diferencia de coste tras la permutacion es: -2166
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 3
+La diferencia de coste tras la permutacion es: -2656
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 4
+La diferencia de coste tras la permutacion es: -1968
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 5
+La diferencia de coste tras la permutacion es: -10
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 6
+La diferencia de coste tras la permutacion es: -1820
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 7
+La diferencia de coste tras la permutacion es: -2496
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 8
+La diferencia de coste tras la permutacion es: -2448
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 9
+La diferencia de coste tras la permutacion es: -2882
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 10
+La diferencia de coste tras la permutacion es: -2078
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 11
+La diferencia de coste tras la permutacion es: -424
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 12
+La diferencia de coste tras la permutacion es: -3398
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 13
+La diferencia de coste tras la permutacion es: -3026
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 14
+La diferencia de coste tras la permutacion es: -1038
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 15
+La diferencia de coste tras la permutacion es: -5184
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 16
+La diferencia de coste tras la permutacion es: -620
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 17
+La diferencia de coste tras la permutacion es: -5756
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 18
+La diferencia de coste tras la permutacion es: -4860
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 19
+La diferencia de coste tras la permutacion es: -4790
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 20
+La diferencia de coste tras la permutacion es: -1560
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 1 y 21
+La diferencia de coste tras la permutacion es: -3396
+La solucion actual es peor que la global, deshago la permutacion
+Bit 1 actualizado al valor 1.
+La posicion 2 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 2 y 0
+La diferencia de coste tras la permutacion es: -396
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 1
+La diferencia de coste tras la permutacion es: -2166
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 2
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 3
+La diferencia de coste tras la permutacion es: -610
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 4
+La diferencia de coste tras la permutacion es: -1036
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 5
+La diferencia de coste tras la permutacion es: -3924
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 6
+La diferencia de coste tras la permutacion es: -1620
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 7
+La diferencia de coste tras la permutacion es: -1092
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 8
+La diferencia de coste tras la permutacion es: -48
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 9
+La diferencia de coste tras la permutacion es: -1036
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 10
+La diferencia de coste tras la permutacion es: -538
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 11
+La diferencia de coste tras la permutacion es: -484
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 12
+La diferencia de coste tras la permutacion es: -980
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 13
+La diferencia de coste tras la permutacion es: -1326
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 14
+La diferencia de coste tras la permutacion es: -2136
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 15
+La diferencia de coste tras la permutacion es: -3278
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 16
+La diferencia de coste tras la permutacion es: -822
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 17
+La diferencia de coste tras la permutacion es: -878
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 18
+La diferencia de coste tras la permutacion es: -938
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 19
+La diferencia de coste tras la permutacion es: -234
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 20
+La diferencia de coste tras la permutacion es: -1008
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 2 y 21
+La diferencia de coste tras la permutacion es: -1244
+La solucion actual es peor que la global, deshago la permutacion
+Bit 2 actualizado al valor 1.
+La posicion 3 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 3 y 0
+La diferencia de coste tras la permutacion es: -698
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 1
+La diferencia de coste tras la permutacion es: -2656
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 2
+La diferencia de coste tras la permutacion es: -610
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 3
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 4
+La diferencia de coste tras la permutacion es: -202
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 5
+La diferencia de coste tras la permutacion es: -4940
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 6
+La diferencia de coste tras la permutacion es: -1532
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 7
+La diferencia de coste tras la permutacion es: -1744
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 8
+La diferencia de coste tras la permutacion es: 168
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 4 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 4 y 0
+La diferencia de coste tras la permutacion es: -1622
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 1
+La diferencia de coste tras la permutacion es: -1968
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 2
+La diferencia de coste tras la permutacion es: -1050
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 3
+La diferencia de coste tras la permutacion es: -182
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 4
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 5
+La diferencia de coste tras la permutacion es: -2080
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 6
+La diferencia de coste tras la permutacion es: -1190
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 7
+La diferencia de coste tras la permutacion es: -1696
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 8
+La diferencia de coste tras la permutacion es: -440
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 9
+La diferencia de coste tras la permutacion es: -2426
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 10
+La diferencia de coste tras la permutacion es: -644
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 11
+La diferencia de coste tras la permutacion es: -754
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 12
+La diferencia de coste tras la permutacion es: -940
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 13
+La diferencia de coste tras la permutacion es: -1524
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 14
+La diferencia de coste tras la permutacion es: -1710
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 15
+La diferencia de coste tras la permutacion es: -1208
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 16
+La diferencia de coste tras la permutacion es: -690
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 17
+La diferencia de coste tras la permutacion es: -840
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 18
+La diferencia de coste tras la permutacion es: -1206
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 19
+La diferencia de coste tras la permutacion es: -640
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 20
+La diferencia de coste tras la permutacion es: -1660
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 4 y 21
+La diferencia de coste tras la permutacion es: -2266
+La solucion actual es peor que la global, deshago la permutacion
+Bit 4 actualizado al valor 1.
+La posicion 5 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 5 y 0
+La diferencia de coste tras la permutacion es: -2978
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 1
+La diferencia de coste tras la permutacion es: -10
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 2
+La diferencia de coste tras la permutacion es: -3896
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 3
+La diferencia de coste tras la permutacion es: -2058
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 4
+La diferencia de coste tras la permutacion es: -2080
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 5
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 6
+La diferencia de coste tras la permutacion es: -4804
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 7
+La diferencia de coste tras la permutacion es: -3352
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 8
+La diferencia de coste tras la permutacion es: -4828
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 9
+La diferencia de coste tras la permutacion es: -2016
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 10
+La diferencia de coste tras la permutacion es: -5474
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 11
+La diferencia de coste tras la permutacion es: -1028
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 12
+La diferencia de coste tras la permutacion es: -384
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 13
+La diferencia de coste tras la permutacion es: -6876
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 14
+La diferencia de coste tras la permutacion es: -2208
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 15
+La diferencia de coste tras la permutacion es: -2338
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 16
+La diferencia de coste tras la permutacion es: -1002
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 17
+La diferencia de coste tras la permutacion es: -3658
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 18
+La diferencia de coste tras la permutacion es: -4058
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 19
+La diferencia de coste tras la permutacion es: -5778
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 20
+La diferencia de coste tras la permutacion es: -2374
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 5 y 21
+La diferencia de coste tras la permutacion es: -4034
+La solucion actual es peor que la global, deshago la permutacion
+Bit 5 actualizado al valor 1.
+La posicion 6 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 7 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 7 y 0
+La diferencia de coste tras la permutacion es: -1074
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 1
+La diferencia de coste tras la permutacion es: -2496
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 2
+La diferencia de coste tras la permutacion es: -952
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 3
+La diferencia de coste tras la permutacion es: -1912
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 4
+La diferencia de coste tras la permutacion es: -1696
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 5
+La diferencia de coste tras la permutacion es: -3352
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 6
+La diferencia de coste tras la permutacion es: -2110
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 7
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 8
+La diferencia de coste tras la permutacion es: 20
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 8 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 8 y 0
+La diferencia de coste tras la permutacion es: -1094
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 1
+La diferencia de coste tras la permutacion es: -2736
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 2
+La diferencia de coste tras la permutacion es: -952
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 3
+La diferencia de coste tras la permutacion es: -1932
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 4
+La diferencia de coste tras la permutacion es: -1786
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 5
+La diferencia de coste tras la permutacion es: -3472
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 6
+La diferencia de coste tras la permutacion es: -2310
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 7
+La diferencia de coste tras la permutacion es: -20
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 8
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 9
+La diferencia de coste tras la permutacion es: -1756
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 10
+La diferencia de coste tras la permutacion es: -702
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 11
+La diferencia de coste tras la permutacion es: -332
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 12
+La diferencia de coste tras la permutacion es: -740
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 13
+La diferencia de coste tras la permutacion es: -878
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 14
+La diferencia de coste tras la permutacion es: -2012
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 15
+La diferencia de coste tras la permutacion es: -956
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 16
+La diferencia de coste tras la permutacion es: -308
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 17
+La diferencia de coste tras la permutacion es: 126
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 9 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 9 y 0
+La diferencia de coste tras la permutacion es: -2956
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 1
+La diferencia de coste tras la permutacion es: -2882
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 2
+La diferencia de coste tras la permutacion es: -1416
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 3
+La diferencia de coste tras la permutacion es: -1976
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 4
+La diferencia de coste tras la permutacion es: -2426
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 5
+La diferencia de coste tras la permutacion es: -2016
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 6
+La diferencia de coste tras la permutacion es: -1604
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 7
+La diferencia de coste tras la permutacion es: -584
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 8
+La diferencia de coste tras la permutacion es: -1078
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 9
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 10
+La diferencia de coste tras la permutacion es: -1062
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 11
+La diferencia de coste tras la permutacion es: -724
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 12
+La diferencia de coste tras la permutacion es: -1636
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 13
+La diferencia de coste tras la permutacion es: -3614
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 14
+La diferencia de coste tras la permutacion es: -908
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 15
+La diferencia de coste tras la permutacion es: -838
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 16
+La diferencia de coste tras la permutacion es: -548
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 17
+La diferencia de coste tras la permutacion es: -1390
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 18
+La diferencia de coste tras la permutacion es: -434
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 19
+La diferencia de coste tras la permutacion es: -476
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 20
+La diferencia de coste tras la permutacion es: 28
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 10 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 11 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 11 y 0
+La diferencia de coste tras la permutacion es: -576
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 1
+La diferencia de coste tras la permutacion es: -424
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 2
+La diferencia de coste tras la permutacion es: -730
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 3
+La diferencia de coste tras la permutacion es: -792
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 4
+La diferencia de coste tras la permutacion es: -1154
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 5
+La diferencia de coste tras la permutacion es: -1028
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 6
+La diferencia de coste tras la permutacion es: -2450
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 7
+La diferencia de coste tras la permutacion es: -440
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 8
+La diferencia de coste tras la permutacion es: -1244
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 9
+La diferencia de coste tras la permutacion es: -544
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 10
+La diferencia de coste tras la permutacion es: -534
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 11
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 12
+La diferencia de coste tras la permutacion es: -44
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 13
+La diferencia de coste tras la permutacion es: -768
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 14
+La diferencia de coste tras la permutacion es: -1804
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 15
+La diferencia de coste tras la permutacion es: -2876
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 16
+La diferencia de coste tras la permutacion es: -812
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 17
+La diferencia de coste tras la permutacion es: -534
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 18
+La diferencia de coste tras la permutacion es: -1548
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 19
+La diferencia de coste tras la permutacion es: -660
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 20
+La diferencia de coste tras la permutacion es: -608
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 11 y 21
+La diferencia de coste tras la permutacion es: -946
+La solucion actual es peor que la global, deshago la permutacion
+Bit 11 actualizado al valor 1.
+La posicion 12 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 12 y 0
+La diferencia de coste tras la permutacion es: -1430
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 1
+La diferencia de coste tras la permutacion es: -3398
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 2
+La diferencia de coste tras la permutacion es: -1466
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 3
+La diferencia de coste tras la permutacion es: -1554
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 4
+La diferencia de coste tras la permutacion es: -940
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 5
+La diferencia de coste tras la permutacion es: -384
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 6
+La diferencia de coste tras la permutacion es: -2612
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 7
+La diferencia de coste tras la permutacion es: -946
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 8
+La diferencia de coste tras la permutacion es: -2488
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 9
+La diferencia de coste tras la permutacion es: -1192
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 10
+La diferencia de coste tras la permutacion es: -604
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 11
+La diferencia de coste tras la permutacion es: -44
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 12
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 13
+La diferencia de coste tras la permutacion es: -5248
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 14
+La diferencia de coste tras la permutacion es: -1036
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 15
+La diferencia de coste tras la permutacion es: -3262
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 16
+La diferencia de coste tras la permutacion es: -302
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 17
+La diferencia de coste tras la permutacion es: -514
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 18
+La diferencia de coste tras la permutacion es: -2184
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 19
+La diferencia de coste tras la permutacion es: -1188
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 20
+La diferencia de coste tras la permutacion es: -1634
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 12 y 21
+La diferencia de coste tras la permutacion es: -1094
+La solucion actual es peor que la global, deshago la permutacion
+Bit 12 actualizado al valor 1.
+La posicion 13 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 13 y 0
+La diferencia de coste tras la permutacion es: -2530
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 1
+La diferencia de coste tras la permutacion es: -3026
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 2
+La diferencia de coste tras la permutacion es: -1480
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 3
+La diferencia de coste tras la permutacion es: -546
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 4
+La diferencia de coste tras la permutacion es: -1596
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 5
+La diferencia de coste tras la permutacion es: -6876
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 6
+La diferencia de coste tras la permutacion es: -2058
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 7
+La diferencia de coste tras la permutacion es: -806
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 8
+La diferencia de coste tras la permutacion es: -648
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 9
+La diferencia de coste tras la permutacion es: -3910
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 10
+La diferencia de coste tras la permutacion es: -1444
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 11
+La diferencia de coste tras la permutacion es: -768
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 12
+La diferencia de coste tras la permutacion es: -5248
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 13
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 14
+La diferencia de coste tras la permutacion es: -412
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 15
+La diferencia de coste tras la permutacion es: -3598
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 16
+La diferencia de coste tras la permutacion es: -598
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 17
+La diferencia de coste tras la permutacion es: -1796
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 18
+La diferencia de coste tras la permutacion es: -1924
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 19
+La diferencia de coste tras la permutacion es: -3320
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 20
+La diferencia de coste tras la permutacion es: -3154
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 13 y 21
+La diferencia de coste tras la permutacion es: -4692
+La solucion actual es peor que la global, deshago la permutacion
+Bit 13 actualizado al valor 1.
+La posicion 14 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 14 y 0
+La diferencia de coste tras la permutacion es: -3162
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 1
+La diferencia de coste tras la permutacion es: -1066
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 2
+La diferencia de coste tras la permutacion es: -2610
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 3
+La diferencia de coste tras la permutacion es: -1756
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 4
+La diferencia de coste tras la permutacion es: -1710
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 5
+La diferencia de coste tras la permutacion es: -2348
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 6
+La diferencia de coste tras la permutacion es: -3872
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 7
+La diferencia de coste tras la permutacion es: -1656
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 8
+La diferencia de coste tras la permutacion es: -1352
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 9
+La diferencia de coste tras la permutacion es: -884
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 10
+La diferencia de coste tras la permutacion es: -748
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 11
+La diferencia de coste tras la permutacion es: -1804
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 12
+La diferencia de coste tras la permutacion es: -1036
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 13
+La diferencia de coste tras la permutacion es: -412
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 14
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 15
+La diferencia de coste tras la permutacion es: -156
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 16
+La diferencia de coste tras la permutacion es: 80
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 15 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 15 y 0
+La diferencia de coste tras la permutacion es: -4714
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 1
+La diferencia de coste tras la permutacion es: -5144
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 2
+La diferencia de coste tras la permutacion es: -2734
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 3
+La diferencia de coste tras la permutacion es: -2998
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 4
+La diferencia de coste tras la permutacion es: -1208
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 5
+La diferencia de coste tras la permutacion es: -2138
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 6
+La diferencia de coste tras la permutacion es: -4688
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 7
+La diferencia de coste tras la permutacion es: -1568
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 8
+La diferencia de coste tras la permutacion es: -260
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 9
+La diferencia de coste tras la permutacion es: -470
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 10
+La diferencia de coste tras la permutacion es: -1760
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 11
+La diferencia de coste tras la permutacion es: -2876
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 12
+La diferencia de coste tras la permutacion es: -3262
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 13
+La diferencia de coste tras la permutacion es: -3598
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 14
+La diferencia de coste tras la permutacion es: -236
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 15
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 16
+La diferencia de coste tras la permutacion es: -260
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 17
+La diferencia de coste tras la permutacion es: -1558
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 18
+La diferencia de coste tras la permutacion es: -1672
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 19
+La diferencia de coste tras la permutacion es: -1478
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 20
+La diferencia de coste tras la permutacion es: -1408
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 15 y 21
+La diferencia de coste tras la permutacion es: -80
+La solucion actual es peor que la global, deshago la permutacion
+Bit 15 actualizado al valor 1.
+La posicion 16 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 16 y 0
+La diferencia de coste tras la permutacion es: -866
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 1
+La diferencia de coste tras la permutacion es: -934
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 2
+La diferencia de coste tras la permutacion es: -1402
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 3
+La diferencia de coste tras la permutacion es: -1652
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 4
+La diferencia de coste tras la permutacion es: -1710
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 5
+La diferencia de coste tras la permutacion es: -1584
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 6
+La diferencia de coste tras la permutacion es: -3628
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 7
+La diferencia de coste tras la permutacion es: -840
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 8
+La diferencia de coste tras la permutacion es: -140
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 9
+La diferencia de coste tras la permutacion es: -172
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 10
+La diferencia de coste tras la permutacion es: -564
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 11
+La diferencia de coste tras la permutacion es: -788
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 12
+La diferencia de coste tras la permutacion es: -256
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 13
+La diferencia de coste tras la permutacion es: -252
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 14
+La diferencia de coste tras la permutacion es: -80
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 15
+La diferencia de coste tras la permutacion es: -260
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 16
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 17
+La diferencia de coste tras la permutacion es: -938
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 18
+La diferencia de coste tras la permutacion es: -1560
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 19
+La diferencia de coste tras la permutacion es: -702
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 20
+La diferencia de coste tras la permutacion es: -454
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 16 y 21
+La diferencia de coste tras la permutacion es: -90
+La solucion actual es peor que la global, deshago la permutacion
+Bit 16 actualizado al valor 1.
+La posicion 17 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 17 y 0
+La diferencia de coste tras la permutacion es: -1642
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 1
+La diferencia de coste tras la permutacion es: -3102
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 2
+La diferencia de coste tras la permutacion es: -1430
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 3
+La diferencia de coste tras la permutacion es: -2102
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 4
+La diferencia de coste tras la permutacion es: -1928
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 5
+La diferencia de coste tras la permutacion es: -3484
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 6
+La diferencia de coste tras la permutacion es: -2228
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 7
+La diferencia de coste tras la permutacion es: -226
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 8
+La diferencia de coste tras la permutacion es: -126
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 9
+La diferencia de coste tras la permutacion es: -1804
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 10
+La diferencia de coste tras la permutacion es: -450
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 11
+La diferencia de coste tras la permutacion es: -534
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 12
+La diferencia de coste tras la permutacion es: -514
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 13
+La diferencia de coste tras la permutacion es: -1796
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 14
+La diferencia de coste tras la permutacion es: -1938
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 15
+La diferencia de coste tras la permutacion es: -1558
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 16
+La diferencia de coste tras la permutacion es: -938
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 17
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 18
+La diferencia de coste tras la permutacion es: -870
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 19
+La diferencia de coste tras la permutacion es: -330
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 20
+La diferencia de coste tras la permutacion es: -1054
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 17 y 21
+La diferencia de coste tras la permutacion es: -1978
+La solucion actual es peor que la global, deshago la permutacion
+Bit 17 actualizado al valor 1.
+La posicion 18 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 18 y 0
+La diferencia de coste tras la permutacion es: -1134
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 1
+La diferencia de coste tras la permutacion es: -4860
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 2
+La diferencia de coste tras la permutacion es: -958
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 3
+La diferencia de coste tras la permutacion es: -1084
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 4
+La diferencia de coste tras la permutacion es: -1222
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 5
+La diferencia de coste tras la permutacion es: -4058
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 6
+La diferencia de coste tras la permutacion es: -900
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 7
+La diferencia de coste tras la permutacion es: -60
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 8
+La diferencia de coste tras la permutacion es: -698
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 9
+La diferencia de coste tras la permutacion es: -790
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 10
+La diferencia de coste tras la permutacion es: -1236
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 11
+La diferencia de coste tras la permutacion es: -1548
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 12
+La diferencia de coste tras la permutacion es: -2184
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 13
+La diferencia de coste tras la permutacion es: -1924
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 14
+La diferencia de coste tras la permutacion es: -1240
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 15
+La diferencia de coste tras la permutacion es: -1672
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 16
+La diferencia de coste tras la permutacion es: -1560
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 17
+La diferencia de coste tras la permutacion es: -870
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 18
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 19
+La diferencia de coste tras la permutacion es: -238
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 20
+La diferencia de coste tras la permutacion es: -460
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 18 y 21
+La diferencia de coste tras la permutacion es: -1094
+La solucion actual es peor que la global, deshago la permutacion
+Bit 18 actualizado al valor 1.
+La posicion 19 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 19 y 0
+La diferencia de coste tras la permutacion es: -482
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 1
+La diferencia de coste tras la permutacion es: -4790
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 2
+La diferencia de coste tras la permutacion es: -506
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 3
+La diferencia de coste tras la permutacion es: -520
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 4
+La diferencia de coste tras la permutacion es: -840
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 5
+La diferencia de coste tras la permutacion es: -5778
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 6
+La diferencia de coste tras la permutacion es: -2700
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 7
+La diferencia de coste tras la permutacion es: 82
+La solucion actual es mejor que la global, actualizo los valores y restablezco los valores correspondientes de la mascara DLB
+La posicion 20 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 20 y 0
+La diferencia de coste tras la permutacion es: -1098
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 1
+La diferencia de coste tras la permutacion es: -2780
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 2
+La diferencia de coste tras la permutacion es: -1436
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 3
+La diferencia de coste tras la permutacion es: -1664
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 4
+La diferencia de coste tras la permutacion es: -3674
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 5
+La diferencia de coste tras la permutacion es: -1754
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 6
+La diferencia de coste tras la permutacion es: -430
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 7
+La diferencia de coste tras la permutacion es: -1624
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 8
+La diferencia de coste tras la permutacion es: -500
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 9
+La diferencia de coste tras la permutacion es: -84
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 10
+La diferencia de coste tras la permutacion es: -1074
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 11
+La diferencia de coste tras la permutacion es: -448
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 12
+La diferencia de coste tras la permutacion es: -1274
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 13
+La diferencia de coste tras la permutacion es: -1650
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 14
+La diferencia de coste tras la permutacion es: -546
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 15
+La diferencia de coste tras la permutacion es: -1408
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 16
+La diferencia de coste tras la permutacion es: -454
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 17
+La diferencia de coste tras la permutacion es: -1054
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 18
+La diferencia de coste tras la permutacion es: -460
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 19
+La diferencia de coste tras la permutacion es: -738
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 20
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 20 y 21
+La diferencia de coste tras la permutacion es: -248
+La solucion actual es peor que la global, deshago la permutacion
+Bit 20 actualizado al valor 1.
+La posicion 21 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 21 y 0
+La diferencia de coste tras la permutacion es: -3754
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 1
+La diferencia de coste tras la permutacion es: -3396
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 2
+La diferencia de coste tras la permutacion es: -892
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 3
+La diferencia de coste tras la permutacion es: -2708
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 4
+La diferencia de coste tras la permutacion es: -2218
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 5
+La diferencia de coste tras la permutacion es: -4034
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 6
+La diferencia de coste tras la permutacion es: -4164
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 7
+La diferencia de coste tras la permutacion es: -340
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 8
+La diferencia de coste tras la permutacion es: -750
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 9
+La diferencia de coste tras la permutacion es: -84
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 10
+La diferencia de coste tras la permutacion es: -462
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 11
+La diferencia de coste tras la permutacion es: -946
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 12
+La diferencia de coste tras la permutacion es: -1094
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 13
+La diferencia de coste tras la permutacion es: -4752
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 14
+La diferencia de coste tras la permutacion es: -824
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 15
+La diferencia de coste tras la permutacion es: -80
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 16
+La diferencia de coste tras la permutacion es: -90
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 17
+La diferencia de coste tras la permutacion es: -1978
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 18
+La diferencia de coste tras la permutacion es: -1094
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 19
+La diferencia de coste tras la permutacion es: -248
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 20
+La diferencia de coste tras la permutacion es: -248
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 21 y 21
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Bit 21 actualizado al valor 1.
+La posicion 0 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 1 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 2 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 3 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 3 y 0
+La diferencia de coste tras la permutacion es: -494
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 1
+La diferencia de coste tras la permutacion es: -2364
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 2
+La diferencia de coste tras la permutacion es: -202
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 3
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 4
+La diferencia de coste tras la permutacion es: -182
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 5
+La diferencia de coste tras la permutacion es: -2058
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 6
+La diferencia de coste tras la permutacion es: -1630
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 7
+La diferencia de coste tras la permutacion es: -524
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 8
+La diferencia de coste tras la permutacion es: -756
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 9
+La diferencia de coste tras la permutacion es: -1876
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 10
+La diferencia de coste tras la permutacion es: -1436
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 11
+La diferencia de coste tras la permutacion es: -792
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 12
+La diferencia de coste tras la permutacion es: -1554
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 13
+La diferencia de coste tras la permutacion es: -930
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 14
+La diferencia de coste tras la permutacion es: -632
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 15
+La diferencia de coste tras la permutacion es: -2998
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 16
+La diferencia de coste tras la permutacion es: -1652
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 17
+La diferencia de coste tras la permutacion es: -2102
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 18
+La diferencia de coste tras la permutacion es: -1084
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 19
+La diferencia de coste tras la permutacion es: -246
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 20
+La diferencia de coste tras la permutacion es: -1664
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 3 y 21
+La diferencia de coste tras la permutacion es: -2708
+La solucion actual es peor que la global, deshago la permutacion
+Bit 3 actualizado al valor 1.
+La posicion 4 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 5 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 6 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 7 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 7 y 0
+La diferencia de coste tras la permutacion es: -522
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 1
+La diferencia de coste tras la permutacion es: -4810
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 2
+La diferencia de coste tras la permutacion es: -462
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 3
+La diferencia de coste tras la permutacion es: -524
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 4
+La diferencia de coste tras la permutacion es: -938
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 5
+La diferencia de coste tras la permutacion es: -5774
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 6
+La diferencia de coste tras la permutacion es: -2854
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 7
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 8
+La diferencia de coste tras la permutacion es: -40
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 9
+La diferencia de coste tras la permutacion es: -1136
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 10
+La diferencia de coste tras la permutacion es: -164
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 11
+La diferencia de coste tras la permutacion es: -480
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 12
+La diferencia de coste tras la permutacion es: -1030
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 13
+La diferencia de coste tras la permutacion es: -3478
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 14
+La diferencia de coste tras la permutacion es: -882
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 15
+La diferencia de coste tras la permutacion es: -1250
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 16
+La diferencia de coste tras la permutacion es: -398
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 17
+La diferencia de coste tras la permutacion es: -290
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 18
+La diferencia de coste tras la permutacion es: -352
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 19
+La diferencia de coste tras la permutacion es: -82
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 20
+La diferencia de coste tras la permutacion es: -1624
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 7 y 21
+La diferencia de coste tras la permutacion es: -340
+La solucion actual es peor que la global, deshago la permutacion
+Bit 7 actualizado al valor 1.
+La posicion 8 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 8 y 0
+La diferencia de coste tras la permutacion es: -404
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 1
+La diferencia de coste tras la permutacion es: -5516
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 2
+La diferencia de coste tras la permutacion es: -404
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 3
+La diferencia de coste tras la permutacion es: -756
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 4
+La diferencia de coste tras la permutacion es: -824
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 5
+La diferencia de coste tras la permutacion es: -3772
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 6
+La diferencia de coste tras la permutacion es: -2160
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 7
+La diferencia de coste tras la permutacion es: -40
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 8
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 9
+La diferencia de coste tras la permutacion es: -714
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 10
+La diferencia de coste tras la permutacion es: -360
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 11
+La diferencia de coste tras la permutacion es: -1244
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 12
+La diferencia de coste tras la permutacion es: -2488
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 13
+La diferencia de coste tras la permutacion es: -1074
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 14
+La diferencia de coste tras la permutacion es: -1432
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 15
+La diferencia de coste tras la permutacion es: -260
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 16
+La diferencia de coste tras la permutacion es: -140
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 17
+La diferencia de coste tras la permutacion es: -126
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 18
+La diferencia de coste tras la permutacion es: -698
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 19
+La diferencia de coste tras la permutacion es: -196
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 20
+La diferencia de coste tras la permutacion es: -500
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 8 y 21
+La diferencia de coste tras la permutacion es: -750
+La solucion actual es peor que la global, deshago la permutacion
+Bit 8 actualizado al valor 1.
+La posicion 9 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 9 y 0
+La diferencia de coste tras la permutacion es: -2208
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 1
+La diferencia de coste tras la permutacion es: -1718
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 2
+La diferencia de coste tras la permutacion es: -1030
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 3
+La diferencia de coste tras la permutacion es: -1876
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 4
+La diferencia de coste tras la permutacion es: -3016
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 5
+La diferencia de coste tras la permutacion es: -2796
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 6
+La diferencia de coste tras la permutacion es: -1890
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 7
+La diferencia de coste tras la permutacion es: -1136
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 8
+La diferencia de coste tras la permutacion es: -714
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 9
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 10
+La diferencia de coste tras la permutacion es: -1620
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 11
+La diferencia de coste tras la permutacion es: -472
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 12
+La diferencia de coste tras la permutacion es: -1060
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 13
+La diferencia de coste tras la permutacion es: -3682
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 14
+La diferencia de coste tras la permutacion es: -1448
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 15
+La diferencia de coste tras la permutacion es: -470
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 16
+La diferencia de coste tras la permutacion es: -172
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 17
+La diferencia de coste tras la permutacion es: -1804
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 18
+La diferencia de coste tras la permutacion es: -790
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 19
+La diferencia de coste tras la permutacion es: -808
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 20
+La diferencia de coste tras la permutacion es: -84
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 9 y 21
+La diferencia de coste tras la permutacion es: -84
+La solucion actual es peor que la global, deshago la permutacion
+Bit 9 actualizado al valor 1.
+La posicion 10 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 11 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 12 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 13 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 14 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 14 y 0
+La diferencia de coste tras la permutacion es: -4552
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 1
+La diferencia de coste tras la permutacion es: -776
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 2
+La diferencia de coste tras la permutacion es: -1894
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 3
+La diferencia de coste tras la permutacion es: -632
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 4
+La diferencia de coste tras la permutacion es: -758
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 5
+La diferencia de coste tras la permutacion es: -1678
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 6
+La diferencia de coste tras la permutacion es: -1812
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 7
+La diferencia de coste tras la permutacion es: -882
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 8
+La diferencia de coste tras la permutacion es: -1432
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 9
+La diferencia de coste tras la permutacion es: -1448
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 10
+La diferencia de coste tras la permutacion es: -1908
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 11
+La diferencia de coste tras la permutacion es: -1908
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 12
+La diferencia de coste tras la permutacion es: -1162
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 13
+La diferencia de coste tras la permutacion es: -808
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 14
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 15
+La diferencia de coste tras la permutacion es: -236
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 16
+La diferencia de coste tras la permutacion es: -80
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 17
+La diferencia de coste tras la permutacion es: -1938
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 18
+La diferencia de coste tras la permutacion es: -1240
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 19
+La diferencia de coste tras la permutacion es: -1870
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 20
+La diferencia de coste tras la permutacion es: -546
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 14 y 21
+La diferencia de coste tras la permutacion es: -824
+La solucion actual es peor que la global, deshago la permutacion
+Bit 14 actualizado al valor 1.
+La posicion 15 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 16 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 17 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 18 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 19 de la mascara DLB es 0, procedo a las comprobaciones.
+Intercambio de posicion entre los valores 19 y 0
+La diferencia de coste tras la permutacion es: -2112
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 1
+La diferencia de coste tras la permutacion es: -2750
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 2
+La diferencia de coste tras la permutacion es: -1190
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 3
+La diferencia de coste tras la permutacion es: -246
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 4
+La diferencia de coste tras la permutacion es: -794
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 5
+La diferencia de coste tras la permutacion es: -4814
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 6
+La diferencia de coste tras la permutacion es: -1000
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 7
+La diferencia de coste tras la permutacion es: -82
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 8
+La diferencia de coste tras la permutacion es: -196
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 9
+La diferencia de coste tras la permutacion es: -808
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 10
+La diferencia de coste tras la permutacion es: -726
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 11
+La diferencia de coste tras la permutacion es: -702
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 12
+La diferencia de coste tras la permutacion es: -1186
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 13
+La diferencia de coste tras la permutacion es: -730
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 14
+La diferencia de coste tras la permutacion es: -1870
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 15
+La diferencia de coste tras la permutacion es: -1878
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 16
+La diferencia de coste tras la permutacion es: -1226
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 17
+La diferencia de coste tras la permutacion es: -348
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 18
+La diferencia de coste tras la permutacion es: -28
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 19
+La diferencia de coste tras la permutacion es: 0
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 20
+La diferencia de coste tras la permutacion es: -738
+La solucion actual es peor que la global, deshago la permutacion
+Intercambio de posicion entre los valores 19 y 21
+La diferencia de coste tras la permutacion es: -248
+La solucion actual es peor que la global, deshago la permutacion
+Bit 19 actualizado al valor 1.
+La posicion 20 de la mascara DLB es 1, paso a la siguiente posicion.
+La posicion 21 de la mascara DLB es 1, paso a la siguiente posicion.
+Se han realizado las 50000 iteraciones o se ha explorado todo el espacio de busqueda.
+Solucion final:0 | 13
+1 | 3
+2 | 10
+3 | 4
+4 | 20
+5 | 12
+6 | 15
+7 | 18
+8 | 6
+9 | 16
+10 | 17
+11 | 19
+12 | 11
+13 | 14
+14 | 2
+15 | 0
+16 | 5
+17 | 8
+18 | 7
+19 | 21
+20 | 9
+21 | 1
+
+Coste final: 6672.
