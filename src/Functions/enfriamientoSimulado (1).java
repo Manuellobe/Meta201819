@@ -1,22 +1,38 @@
-<<<<<<< Updated upstream
 package Functions;
 
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.BitSet;
 import java.util.Collections;
 import java.util.Random;
-import java.io.*;
+import java.util.BitSet;
 
-public class busquedaLocal {
+public class enfriamientoSimulado {
 
     private int dimension;
     private int randomSeed;
+    private String annType;
+    private float temperature;
+    private float init_temperature;
     private ArrayList<String> logger;
+    private float alpha;
+    
+    // Selecci髇 del Mecanismo de Enfriamiento:  0 -> Boltzmann | 1 -> Geom閠rico
+    private int cooling;
 
-    public busquedaLocal(int nDimension){
+    public enfriamientoSimulado(int nDimension,int coolingType){
 
         dimension = nDimension;
         randomSeed = 77383310;
+        
+        // Ajuste del Mecanismo de Enfriamiento
+        if(coolingType == 0){
+            annType = "Boltzman";
+        }else{
+            alpha = 0.9f;
+            annType = "Geometrico con alfa = "+alpha;
+        }
+
         logger = new ArrayList<>();
 
     }
@@ -28,24 +44,25 @@ public class busquedaLocal {
         logger.add("Logger\n \n Generando solucion aleatoria inicial: \n - Vector solucion: ");
 
 
-        // Generaci贸n de la soluci贸n inicial
-        for(int i = 0; i < dimension; i++){
+        // Generaci髇 de la soluci髇 inicial
+            for(int i = 0; i < dimension; i++){
 
-            // A帽adimos a casa posicion su valor
-            availableTerminals.add(i);
+                // A馻dimos a cada posicion su valor
+                availableTerminals.add(i);
 
-        }
+            }
 
-        // Barajamos las posiciones
-        Collections.shuffle(availableTerminals, new Random(randomSeed));
-        // Fin generaci贸n soluci贸n inicial
+            // Barajamos las posiciones (Mezcla)
+            Collections.shuffle(availableTerminals, new Random(randomSeed));
+
+        // Fin generaci髇 soluci髇 inicial
 
         ArrayList<Integer> bestSolution = new ArrayList<>();
         ArrayList<Integer> tempSolution = new ArrayList<>();
 
         int bestCost = 0;
 
-        // A帽adimos la soluci贸n inicial a las estructuras de evolucion
+        // A馻dimos la soluci髇 inicial a las estructuras de evolucion
         for(int i = 0; i < dimension; i++){
 
             logger.add( i + " | " + availableTerminals.get(i));
@@ -66,15 +83,25 @@ public class busquedaLocal {
 
         }
 
-        logger.add("\n - Coste: " + bestCost + "\n\nInicio bucle busqueda local primer mejor:\n");
+        logger.add("\n - Coste: " + bestCost + "\n\nInicio bucle Enfriamiento Simulado (SE):\n");
+
+        
+        init_temperature = bestCost * 1.5f;
+        temperature = init_temperature;
+        
+        logger.add("Temperatura inicial: " + init_temperature + "\n");
 
         int iterations = 0;
         BitSet DLB = new BitSet(dimension);
 
-
         // Bucle global
         while(iterations < 50000 && DLB.cardinality() != dimension){
 
+            int num_vecinos = 0;
+            int num_exitos = 0;
+            int max_vecinos = 0;
+            int max_exitos = (max_vecinos/10);
+            
             for(int i = 0; i < dimension; i++){
 
                 // Comprobamos la mascara para evitar comprobar soluciones sin mejora
@@ -84,13 +111,13 @@ public class busquedaLocal {
                     for(int j = 0; j < dimension; j++){
 
                         // Permutamos posiciones || operador de intercambio
+                                               
                         tempSolution.set(i, bestSolution.get(j));
                         tempSolution.set(j, bestSolution.get(i));
 
                         int tempCost = 0;
-
+                        
                         for(int k = 0; k < dimension; k++){
-
 
                             // Coste de la mejor solucion
                             tempCost += 2 * (fluxMatrix[k][i] * distMatrix[bestSolution.get(k)][bestSolution.get(i)]);
@@ -99,9 +126,8 @@ public class busquedaLocal {
                             // Coste de la permutacion
                             tempCost -= 2 * (fluxMatrix[k][i] * distMatrix[tempSolution.get(k)][tempSolution.get(i)]);
                             tempCost -= 2 * (fluxMatrix[k][j] * distMatrix[tempSolution.get(k)][tempSolution.get(j)]);
-
                         }
-
+                        
                         // Si el coste es menor
                         if (tempCost > 0){
 
@@ -113,27 +139,55 @@ public class busquedaLocal {
                             bestSolution.set(j, tempSolution.get(j));
                             bestCost -= tempCost;
 
+
                             // Rehabilitamos la mascara en las posiciones i y j
                             DLB.set(i, false);
                             DLB.set(j, false);
+                            
                             break;
 
                         }
 
                         // En caso de que la solucion sea peor
-                        else{
+                        else {
 
-                            // Restablecemos la solucion temporal a la mejor solucion
-                            tempSolution.set(i, bestSolution.get(i));
-                            tempSolution.set(j, bestSolution.get(j));
+                            
+                            Random rnd = new Random();
+                            float acceptance = (float) Math.exp(((-1)*tempCost) / ((iterations) * temperature));
+                            float probability = rnd.nextFloat();
+
+                            if (probability <= acceptance) {
+
+                                // Rehabilitamos la mascara en las posiciones i y j
+                                DLB.set(i, false);
+                                DLB.set(j, false);
+
+                            } else {
+                                // Restablecemos la solucion temporal a la mejor solucion
+                                tempSolution.set(i, bestSolution.get(i));
+                                tempSolution.set(j, bestSolution.get(j));
+                            }
 
                         }
 
+                        // Enfriamiento
+                        if (cooling == 0) {
+                            temperature = (float) (init_temperature / (1 + Math.log(iterations)));
+                        } else {
+                            temperature = (alpha * temperature);
+                        }
+                        
                         // Aumentamos las iteraciones y comprobamos si hemos llegado al limite
                         iterations++;
                         if(iterations == 50000){
 
                             logger.add("50000 iteraciones realizadas, finalizando el bucle de busqueda.\n");
+                            break;
+                        }
+                        
+                        // Si la temperatura llega a un estado estable (congelado) se para
+                        if(temperature == 0){
+                            logger.add("La temperatura ha llegado a cero en la iteracion: "+(iterations+1)+"\n");
                             break;
                         }
 
@@ -152,7 +206,7 @@ public class busquedaLocal {
 
         }
 
-        logger.add("Se ha explorado todo el espacio de busqueda.\n");
+        logger.add("Se han realizado las 50000 iteraciones o se ha explorado todo el espacio de busqueda.\n");
         logger.add("Solucion final:\n");
         for(int i = 0; i < dimension; i++){
 
@@ -168,7 +222,7 @@ public class busquedaLocal {
         PrintWriter pw = null;
         try
         {
-            fichero = new FileWriter("src/Datos/LogBL" + "-"+ randomSeed +".txt");
+            fichero = new FileWriter("src/Datos/LogES"+"-"+annType+"-"+randomSeed+".txt");
             pw = new PrintWriter(fichero);
 
             for (String linea: logger) {
@@ -191,39 +245,4 @@ public class busquedaLocal {
         return bestCost;
     }
 
-
-
-
 }
-=======
-package Functions;
-
-public class busquedaLocal {
-
-    // Dimension de las matrices cuadradas
-    private int dimension;
-
-    // Vectores de flujo y discancia acumulados ordenados
-    private ArrayList<Pair<Integer, Integer>> orderedFluxValueVector;
-    private ArrayList<Pair<Integer, Integer>> orderedDistValueVector;
-
-    // Vector de representacion de la solucion
-    private int[] solutionRepresentation;
-
-
-    // Constructor
-    public busquedaLocal(int nDimension){
-
-        dimension = nDimension;
-        orderedFluxValueVector = new ArrayList<Pair<Integer, Integer>>();
-        orderedDistValueVector = new ArrayList<Pair<Integer, Integer>>();
-        solutionRepresentation = new int[nDimension];
-
-    }
-
-    public int obtenerSolucion(int[][] fluxMatrix, int[][] distMatrix) {
-
-    }
-
-}
->>>>>>> Stashed changes
