@@ -20,7 +20,7 @@ public class busquedaLocal {
 
     }
 
-    public int enfriamientoSolucion(int[][] fluxMatrix, int[][] distMatrix){
+    public long enfriamientoSolucion(int[][] fluxMatrix, int[][] distMatrix){
 
         ArrayList<Integer> availableTerminals = new ArrayList<>();
 
@@ -42,7 +42,8 @@ public class busquedaLocal {
         ArrayList<Integer> bestSolution = new ArrayList<>();
         ArrayList<Integer> tempSolution = new ArrayList<>();
 
-        int bestCost = 0;
+        long bestCost = 0;
+        long tempCost;
 
         // Añadimos la solución inicial a las estructuras de evolucion
         for(int i = 0; i < dimension; i++){
@@ -86,7 +87,7 @@ public class busquedaLocal {
                         tempSolution.set(i, bestSolution.get(j));
                         tempSolution.set(j, bestSolution.get(i));
 
-                        int tempCost = 0;
+                        tempCost = 0;
 
                         for(int k = 0; k < dimension; k++){
 
@@ -101,7 +102,7 @@ public class busquedaLocal {
 
                         }
 
-                        // Si el coste es menor
+                        // Si el coste es mayor, y por tanto la solucion es mejor
                         if (tempCost > 0){
 
                             logger.add("La diferencia de coste tras la permutacion es: " + tempCost + "\n");

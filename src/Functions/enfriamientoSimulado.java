@@ -13,20 +13,38 @@ public class enfriamientoSimulado {
     private int randomSeed;
     private String annType;
     private float temperature;
+    private float init_temperature;
     private ArrayList<String> logger;
+    private float alpha;
 
-    public enfriamientoSimulado(int nDimension){
+    // Selección del Mecanismo de Enfriamiento:  0 -> Boltzmann | 1 -> Geométrico
+    private int cooling;
+
+    public enfriamientoSimulado(int nDimension,int coolingType){
 
         dimension = nDimension;
         randomSeed = 77383310;
-        annType = "Boltzman";
+        cooling = coolingType;
+
+        // Ajuste del Mecanismo de Enfriamiento
+        if(cooling == 0){
+            annType = "Boltzman";
+        }else{
+            alpha = 0.9f;
+            annType = "Geometrico con alfa = " + alpha;
+        }
+
         logger = new ArrayList<>();
 
     }
 
-    public int enfriamientoSolucion(int[][] fluxMatrix, int[][] distMatrix){
+    public long enfriamientoSolucion(int[][] fluxMatrix, int[][] distMatrix){
 
         ArrayList<Integer> availableTerminals = new ArrayList<>();
+
+        Random rand = new Random(randomSeed);
+        float acceptance;
+        float probability;
 
         logger.add("Logger\n \n Generando solucion aleatoria inicial: \n - Vector solucion: ");
 
@@ -34,25 +52,30 @@ public class enfriamientoSimulado {
         // Generación de la solución inicial
         for(int i = 0; i < dimension; i++){
 
-            // Añadimos a casa posicion su valor
+            // Añadimos a cada posicion su valor
             availableTerminals.add(i);
 
         }
 
-        // Barajamos las posiciones
-        Collections.shuffle(availableTerminals, new Random(randomSeed));
+        // Barajamos las posiciones (Mezcla)
+        Collections.shuffle(availableTerminals, rand);
+
         // Fin generación solución inicial
 
         ArrayList<Integer> bestSolution = new ArrayList<>();
+        ArrayList<Integer> annSolution = new ArrayList<>();
         ArrayList<Integer> tempSolution = new ArrayList<>();
 
-        int bestCost = 0;
+        long bestCost = 0;
+        long annCost = 0;
+        long tempCost;
 
         // Añadimos la solución inicial a las estructuras de evolucion
         for(int i = 0; i < dimension; i++){
 
             logger.add( i + " | " + availableTerminals.get(i));
             bestSolution.add(availableTerminals.get(i));
+            annSolution.add(availableTerminals.get(i));
             tempSolution.add(availableTerminals.get(i));
 
         }
@@ -69,18 +92,21 @@ public class enfriamientoSimulado {
 
         }
 
-        logger.add("\n - Coste: " + bestCost + "\n\nInicio bucle enfriamiento simulado:\n");
+        annCost += bestCost;
 
+        logger.add("\n - Coste: " + bestCost + "\n\nInicio bucle Enfriamiento Simulado (SE):\n");
+
+
+        init_temperature = bestCost * 1.5f;
         temperature = bestCost * 1.5f;
 
-        logger.add("Temperatura inicial: " + temperature + "\n");
+        logger.add("Temperatura inicial: " + init_temperature + "\n");
 
-        int iterations = 0;
+        int iterations = 1;
         BitSet DLB = new BitSet(dimension);
 
-
         // Bucle global
-        while(iterations < 50000 && DLB.cardinality() != dimension){
+        while(iterations < 50001 && (dimension - DLB.cardinality()) * 0.1f > 0){
 
             for(int i = 0; i < dimension; i++){
 
@@ -88,59 +114,99 @@ public class enfriamientoSimulado {
                 if(DLB.get(i) == false){
 
                     // Probamos todas las combinaciones con la i actual
-                    for(int j = 0; j < dimension; j++){
+                    for(int j = 1; j < dimension; j++){
+
+                        // Enfriamiento
+                        if (cooling == 0) {
+                            temperature = (float) (init_temperature / (1 + Math.log(iterations)));
+                        } else {
+                            temperature = (alpha * temperature);
+                        }
 
                         // Permutamos posiciones || operador de intercambio
-                        tempSolution.set(i, bestSolution.get(j));
-                        tempSolution.set(j, bestSolution.get(i));
 
-                        int tempCost = 0;
+                        tempSolution.set(i, annSolution.get(j));
+                        tempSolution.set(j, annSolution.get(i));
+
+                        tempCost = 0;
 
                         for(int k = 0; k < dimension; k++){
 
-
                             // Coste de la mejor solucion
-                            tempCost += 2 * (fluxMatrix[k][i] * distMatrix[bestSolution.get(k)][bestSolution.get(i)]);
-                            tempCost += 2 * (fluxMatrix[k][j] * distMatrix[bestSolution.get(k)][bestSolution.get(j)]);
+                            tempCost += 2 * (fluxMatrix[k][i] * distMatrix[annSolution.get(k)][annSolution.get(i)]);
+                            tempCost += 2 * (fluxMatrix[k][j] * distMatrix[annSolution.get(k)][annSolution.get(j)]);
 
                             // Coste de la permutacion
                             tempCost -= 2 * (fluxMatrix[k][i] * distMatrix[tempSolution.get(k)][tempSolution.get(i)]);
                             tempCost -= 2 * (fluxMatrix[k][j] * distMatrix[tempSolution.get(k)][tempSolution.get(j)]);
-
                         }
 
-                        // Si el coste es menor
+                        // Si el coste es mayor, y por tanto la solucion es mejor
                         if (tempCost > 0){
 
                             logger.add("La diferencia de coste tras la permutacion es: " + tempCost + "\n");
                             logger.add("La solucion actual es mejor que la global, intercambio los valores " + i + ", " + j + ".\n");
 
-                            // Reemplazamos la mejor solucion con la nueva mejor solucion
-                            bestSolution.set(i, tempSolution.get(i));
-                            bestSolution.set(j, tempSolution.get(j));
-                            bestCost -= tempCost;
+                            annSolution.set(i, tempSolution.get(i));
+                            annSolution.set(j, tempSolution.get(j));
+                            annCost -= tempCost;
+
+                            if(annCost < bestCost) {
+                                // Reemplazamos la mejor solucion con la nueva mejor solucion
+
+                                for (int a = 0; a < dimension; a++) {
+                                    bestSolution.set(a, tempSolution.get(a));
+                                }
+
+                                bestCost = annCost + 0;
+
+                            }
 
                             // Rehabilitamos la mascara en las posiciones i y j
                             DLB.set(i, false);
                             DLB.set(j, false);
+
                             break;
 
                         }
 
                         // En caso de que la solucion sea peor
-                        else{
+                        else {
 
-                            // Restablecemos la solucion temporal a la mejor solucion
-                            tempSolution.set(i, bestSolution.get(i));
-                            tempSolution.set(j, bestSolution.get(j));
+                            acceptance = (float) Math.exp(tempCost / temperature);
+                            probability = rand.nextFloat();
+
+                            if (probability <= acceptance) {
+
+                                // Reemplazamos la solucion aceptada en la solucion de enfriamiento actual
+                                annSolution.set(i, tempSolution.get(i));
+                                annSolution.set(j, tempSolution.get(j));
+                                annCost -= tempCost;
+
+                                // Rehabilitamos la mascara en las posiciones i y j
+                                DLB.set(i, false);
+                                DLB.set(j, false);
+
+                            } else {
+                                // Restablecemos la solucion temporal a la mejor solucion
+                                tempSolution.set(i, annSolution.get(i));
+                                tempSolution.set(j, annSolution.get(j));
+                            }
 
                         }
 
+
                         // Aumentamos las iteraciones y comprobamos si hemos llegado al limite
                         iterations++;
-                        if(iterations == 50000){
+                        if(iterations == 50001){
 
                             logger.add("50000 iteraciones realizadas, finalizando el bucle de busqueda.\n");
+                            break;
+                        }
+
+                        // Si la temperatura llega a un estado estable (congelado) se para
+                        if(temperature == 0){
+                            logger.add("La temperatura ha llegado a cero en la iteracion: "+(iterations)+"\n");
                             break;
                         }
 
@@ -159,7 +225,7 @@ public class enfriamientoSimulado {
 
         }
 
-        logger.add("Se han realizado las 50000 iteraciones o se ha explorado todo el espacio de busqueda.\n");
+        logger.add("Se ha explorado todo el espacio de busqueda.\n");
         logger.add("Solucion final:\n");
         for(int i = 0; i < dimension; i++){
 
