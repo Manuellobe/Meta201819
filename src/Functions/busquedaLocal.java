@@ -11,12 +11,15 @@ public class busquedaLocal {
     private int dimension;
     private int randomSeed;
     private ArrayList<String> logger;
+    private String file;
 
-    public busquedaLocal(int nDimension){
+    public busquedaLocal(int nDimension, String fileName){
 
         dimension = nDimension;
         randomSeed = 77383310;
         logger = new ArrayList<>();
+
+        file = fileName;
 
     }
 
@@ -168,7 +171,7 @@ public class busquedaLocal {
         PrintWriter pw = null;
         try
         {
-            fichero = new FileWriter("src/Datos/LogBL" + "-"+ randomSeed +".txt");
+            fichero = new FileWriter("src/Datos/LogBL" + "-" + file + "-" + randomSeed +".txt");
             pw = new PrintWriter(fichero);
 
             for (String linea: logger) {

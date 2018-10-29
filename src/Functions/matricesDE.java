@@ -9,9 +9,12 @@ public class matricesDE {
     private int dimension;
     private int[][] fluxMatrix;
     private int[][] distMatrix;
+    private String file;
 
     // Constructor
     public matricesDE(String fileName){
+
+        file = fileName;
 
         try{
             loadData(fileName);
@@ -92,6 +95,12 @@ public class matricesDE {
             }
 
         }
+
+    }
+
+    public String getFileName(){
+
+        return this.file;
 
     }
 

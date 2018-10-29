@@ -16,15 +16,18 @@ public class enfriamientoSimulado {
     private float init_temperature;
     private ArrayList<String> logger;
     private float alpha;
+    private String file;
 
     // Selección del Mecanismo de Enfriamiento:  0 -> Boltzmann | 1 -> Geométrico
     private int cooling;
 
-    public enfriamientoSimulado(int nDimension,int coolingType){
+    public enfriamientoSimulado(int nDimension,int coolingType, String fileName){
 
         dimension = nDimension;
-        randomSeed = 77383310;
+        randomSeed = 7738331;
         cooling = coolingType;
+
+        file = fileName;
 
         // Ajuste del Mecanismo de Enfriamiento
         if(cooling == 0){
@@ -59,6 +62,41 @@ public class enfriamientoSimulado {
 
         // Barajamos las posiciones (Mezcla)
         Collections.shuffle(availableTerminals, rand);
+
+        ArrayList<Integer> colisions = new ArrayList<>();
+
+        for(int i = 0; i < dimension; i++){
+
+            if(availableTerminals.get(i) == i)
+                colisions.add(i);
+
+        }
+
+        if(colisions.size() > 1){
+
+            for(int i = 0; i < colisions.size()-1; i++){
+
+                availableTerminals.set(colisions.get(i), colisions.get(i+1));
+
+            }
+
+            availableTerminals.set(colisions.get(colisions.size()-1), colisions.get(0));
+
+        }
+
+        else if(colisions.size() == 1){
+
+
+            int randPos;
+            do{
+                randPos = rand.nextInt()%dimension;
+            }
+            while(randPos == colisions.get(0));
+
+            availableTerminals.set(colisions.get(0), availableTerminals.get(randPos));
+            availableTerminals.set(randPos, colisions.get(0));
+
+        }
 
         // Fin generación solución inicial
 
@@ -141,6 +179,8 @@ public class enfriamientoSimulado {
                             tempCost -= 2 * (fluxMatrix[k][j] * distMatrix[tempSolution.get(k)][tempSolution.get(j)]);
                         }
 
+                        iterations++;
+
                         // Si el coste es mayor, y por tanto la solucion es mejor
                         if (tempCost > 0){
 
@@ -187,6 +227,7 @@ public class enfriamientoSimulado {
                                 DLB.set(i, false);
                                 DLB.set(j, false);
 
+
                             } else {
                                 // Restablecemos la solucion temporal a la mejor solucion
                                 tempSolution.set(i, annSolution.get(i));
@@ -197,7 +238,7 @@ public class enfriamientoSimulado {
 
 
                         // Aumentamos las iteraciones y comprobamos si hemos llegado al limite
-                        iterations++;
+
                         if(iterations == 50001){
 
                             logger.add("50000 iteraciones realizadas, finalizando el bucle de busqueda.\n");
@@ -241,7 +282,7 @@ public class enfriamientoSimulado {
         PrintWriter pw = null;
         try
         {
-            fichero = new FileWriter("src/Datos/LogES"+"-"+annType+"-"+randomSeed+".txt");
+            fichero = new FileWriter("src/Datos/LogES" + "-" + file + "-" + annType + "-" + randomSeed + ".txt");
             pw = new PrintWriter(fichero);
 
             for (String linea: logger) {
