@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="168fc8fc-a31f-499d-84d4-9e7948b2a211" name="Default Changelist" comment="" />
+    <list default="true" id="168fc8fc-a31f-499d-84d4-9e7948b2a211" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/Meta/Datos/LogBL-77383310.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogBL-10773833.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogBL-31077383.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogBL-33107738.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogBL-38331077.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogBL-73833107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogBL-7738331.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogBL-77383310.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogBL-83310773.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogBL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogES-Boltzman-77383310.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datos/LogES-Geometrico con alfa = 0.9-77383310.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions/busquedaLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/busquedaLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions/enfriamientoSimulado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/enfriamientoSimulado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions/matricesDE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/matricesDE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica1/main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,72 +39,84 @@
     <session id="-432980529">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="dat" value="2" />
+          <entry key="java" value="7" />
+          <entry key="sln" value="6" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="7" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1116" />
+          <entry key="dat" value="1" />
+          <entry key="java" value="1976" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1116" />
+          <entry key="JAVA" value="1976" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
     <session id="-1772107348">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.34" value="4" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="2" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.94" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dat" value="4" />
           <entry key="dummy" value="23" />
-          <entry key="java" value="8167" />
+          <entry key="java" value="9165" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8167" />
+          <entry key="JAVA" value="9165" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="dat" value="19" />
-          <entry key="java" value="3" />
-          <entry key="sln" value="3" />
-          <entry key="txt" value="7" />
+          <entry key="java" value="4" />
+          <entry key="sln" value="4" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="JAVA" value="4" />
+          <entry key="PLAIN_TEXT" value="32" />
         </counts>
       </usages-collector>
     </session>
@@ -127,15 +156,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Practica1/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            <state relative-caret-position="136">
+              <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Functions/greedy.java">
+        <entry file="file://$PROJECT_DIR$/src/Datos/LogES-cnf01.dat-Boltzman-7738331.txt">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             <state relative-caret-position="255">
 =======
@@ -147,25 +177,34 @@
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
+=======
+            <state relative-caret-position="-102" />
+>>>>>>> master
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Functions/enfriamientoSimulado.java">
+        <entry file="file://$PROJECT_DIR$/src/Functions/greedy.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             <state relative-caret-position="-1904">
               <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="206">
+              <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Functions/busquedaLocal.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Functions/enfriamientoSimulado.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="595">
               <caret line="153" column="50" selection-start-line="153" selection-start-column="50" selection-end-line="153" selection-end-column="50" />
 =======
@@ -176,6 +215,10 @@
               <caret line="65" column="68" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="68" />
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+            <state relative-caret-position="2493">
+              <caret line="268" selection-start-line="268" selection-end-line="268" />
+>>>>>>> master
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,6 +227,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/Functions/busquedaLocal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -194,18 +238,21 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Datos/LogBL-77383310.txt">
+=======
+        <entry file="file://$PROJECT_DIR$/src/Functions/estacionario.java">
+>>>>>>> master
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+            <state relative-caret-position="272">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Datos/LogBL.txt">
+        <entry file="file://$PROJECT_DIR$/src/Functions/busquedaLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="60" column="15" lean-forward="true" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+            <state relative-caret-position="102">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -213,8 +260,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Functions/matricesDE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="45" />
+            <state relative-caret-position="410">
+              <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -235,10 +282,16 @@
       <find>sort</find>
       <find>dlb.set</find>
       <find>logger</find>
+      <find>best</find>
+      <find>coolin</find>
+      <find>tempco</find>
     </findStrings>
     <replaceStrings>
       <replace>splitLine</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\Meta\Meta201819\src\Datos</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -248,19 +301,26 @@
       <list>
         <option value="$PROJECT_DIR$/src/Datos/cnf09.dat" />
         <option value="$PROJECT_DIR$/src/Datos/cnf02.dat" />
-        <option value="$PROJECT_DIR$/src/Datos/cnf07.dat" />
         <option value="$PROJECT_DIR$/src/Datos/cnf08.dat" />
-        <option value="$PROJECT_DIR$/src/Functions/matricesDE.java" />
         <option value="$PROJECT_DIR$/src/Functions/primerMejor.java" />
         <option value="$PROJECT_DIR$/src/Functions/greedy.java" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/src/Datos/LogBL.txt" />
         <option value="$PROJECT_DIR$/src/Functions/enfriamientoSimulado.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Datos/cnf07.dat" />
+        <option value="$PROJECT_DIR$/src/Functions/matricesDE.java" />
+        <option value="$PROJECT_DIR$/src/Functions/matricesDE.java" />
+>>>>>>> master
         <option value="$PROJECT_DIR$/src/Functions/busquedaLocal.java" />
+        <option value="$PROJECT_DIR$/src/Functions/enfriamientoSimulado.java" />
+        <option value="$PROJECT_DIR$/src/Functions/estacionario.java" />
         <option value="$PROJECT_DIR$/src/Practica1/main.java" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
 =======
 <<<<<<< Updated upstream
@@ -284,13 +344,23 @@
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="447" />
+    <option name="y" value="-8" />
+    <option name="width" value="933" />
+    <option name="height" value="946" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+>>>>>>> master
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <pane id="Scope" />
 =======
@@ -300,6 +370,9 @@
 =======
       <pane id="PackagesPane" />
 >>>>>>> Stashed changes
+=======
+      <pane id="PackagesPane" />
+>>>>>>> master
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -335,6 +408,7 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <pane id="PackagesPane" />
 <<<<<<< Updated upstream
@@ -352,6 +426,14 @@
 <<<<<<< Updated upstream
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538999612100" />
 >>>>>>> Stashed changes
+=======
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540818126041" />
+>>>>>>> master
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -414,8 +496,8 @@
   <component name="ToolWindowManager">
 <<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
 =======
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -427,6 +509,10 @@
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978308" visible="true" weight="0.26599148" />
+      <window_info id="Structure" order="1" sideWeight="0.5021692" side_tool="true" visible="true" weight="0.26599148" />
+>>>>>>> master
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -434,8 +520,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2451193" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38177875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2451193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2462039" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -467,141 +553,111 @@
       <path value="$PROJECT_DIR$/Meta201819" />
     </ignored-roots>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Functions/enfriamientoSimulado.java</url>
-          <line>161</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Functions/busquedaLocal.java</url>
-          <line>153</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Datos/LogBL-77383310.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datos/LogES-Boltzman-77383310.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986411" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datos/LogES-Geometrico con alfa = 0.9-77383310.txt" />
     <entry file="file://$PROJECT_DIR$/src/Datos/cnf04.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10761" />
+        <state relative-caret-position="-14107" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/cnf05.dat">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/StringTokenizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8194" />
+        <state relative-caret-position="223">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/cnf06.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1683" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/cnf10.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2244" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datos/cnf10.sln" />
+    <entry file="file://$PROJECT_DIR$/src/Datos/cnf09.sln" />
+    <entry file="file://$PROJECT_DIR$/src/Datos/cnf08.sln" />
+    <entry file="file://$PROJECT_DIR$/src/Datos/cnf06.sln" />
+    <entry file="file://$PROJECT_DIR$/src/Datos/cnf05.sln" />
     <entry file="file://$PROJECT_DIR$/src/Datos/cnf07.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/cnf08.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="152" column="4" selection-start-line="152" selection-start-column="4" selection-end-line="152" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/cnf09.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="258" selection-start-line="258" selection-end-line="258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/cnf03.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/cnf02.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/cnf01.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/ejemplo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/cnf01.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datos/cnf07.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Functions/greedy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="206">
+          <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datos/LogES-cnf01.dat-Geometrico con alfa = 0.9-7738331.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1301" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Functions/matricesDE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="45" />
+        <state relative-caret-position="410">
+          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions/busquedaLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practica1/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Datos/LogBL.txt">
 =======
 <<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Datos/cnf01.sln">
 >>>>>>> Stashed changes
+=======
+    <entry file="file://$PROJECT_DIR$/src/Datos/LogES-cnf01.dat-Boltzman-7738331.txt">
+>>>>>>> master
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="60" column="15" lean-forward="true" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
-        </state>
+        <state relative-caret-position="-102" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Functions/enfriamientoSimulado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1904">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="2493">
+          <caret line="268" selection-start-line="268" selection-end-line="268" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practica1/main.java">
+    <entry file="file://$PROJECT_DIR$/src/Functions/estacionario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datos/LogBL-77383310.txt">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1462">
           <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
         </state>
@@ -637,6 +693,10 @@
         <state relative-caret-position="136">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
 >>>>>>> Stashed changes
+=======
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
