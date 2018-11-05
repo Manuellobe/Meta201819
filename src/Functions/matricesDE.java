@@ -1,9 +1,9 @@
 package Functions;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
 public class matricesDE {
-
 
     // Atributos basicos para el almacenamiento de los datos
     private int dimension;
@@ -12,36 +12,35 @@ public class matricesDE {
     private String file;
 
     // Constructor
-    public matricesDE(String fileName){
+    public matricesDE(String fileName) {
 
         file = fileName;
 
-        try{
+        try {
             loadData(fileName);
-        }catch (java.io.IOException exc){
+        } catch (java.io.IOException exc) {
 
-            System.out.print (exc.getMessage());
+            System.out.print(exc.getMessage());
 
         }
 
     }
 
     // Getters & Setters
-    public int[][] getfluxMatrix(){
+    public int[][] getfluxMatrix() {
         return fluxMatrix;
     }
 
-    public int[][] getdistMatrix(){
+    public int[][] getdistMatrix() {
         return distMatrix;
     }
 
-    public int getDimension(){
+    public int getDimension() {
         return dimension;
     }
 
-
     // Carga los datos desde fichero y los almacenamos en matrices
-    private void loadData(String file) throws java.io.IOException{
+    private void loadData(String file) throws java.io.IOException {
 
         // Ruta origen de datos
         File dataFile = new File("src/Datos/" + file);
@@ -50,10 +49,11 @@ public class matricesDE {
 
         String currentLine;
 
-        if((currentLine = br.readLine()) == null) throw new IOException("El archivo de datos indicado no existe. " + file);
+        if ((currentLine = br.readLine()) == null) {
+            throw new IOException("El archivo de datos indicado no existe. " + file);
+        }
 
         StringTokenizer splitLine = new StringTokenizer(currentLine);
-
 
         // Inicializacion de parametros
         dimension = Integer.parseInt(splitLine.nextToken());
@@ -61,17 +61,16 @@ public class matricesDE {
         distMatrix = new int[dimension][dimension];
 
         // Leemos los datos de la matriz de flujo
-
         br.readLine();
 
-        for(int i = 0; i < dimension; i++){
+        for (int i = 0; i < dimension; i++) {
 
             currentLine = br.readLine();
 
             splitLine = new StringTokenizer(currentLine);
 
             int j = 0;
-            while(splitLine.hasMoreTokens()){
+            while (splitLine.hasMoreTokens()) {
                 fluxMatrix[i][j] = Integer.parseInt(splitLine.nextToken());
                 j++;
             }
@@ -79,17 +78,16 @@ public class matricesDE {
         }
 
         // Leemos los datos de la matriz de distancias
-
         br.readLine();
 
-        for(int i = 0; i < dimension; i++){
+        for (int i = 0; i < dimension; i++) {
 
             currentLine = br.readLine();
 
             splitLine = new StringTokenizer(currentLine);
 
             int j = 0;
-            while(splitLine.hasMoreTokens()){
+            while (splitLine.hasMoreTokens()) {
                 distMatrix[i][j] = Integer.parseInt(splitLine.nextToken());
                 j++;
             }
@@ -98,11 +96,10 @@ public class matricesDE {
 
     }
 
-    public String getFileName(){
+    public String getFileName() {
 
         return this.file;
 
     }
-
 
 }

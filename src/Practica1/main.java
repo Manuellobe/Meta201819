@@ -1,14 +1,14 @@
 package Practica1;
 import Functions.*;
+import java.util.Scanner;
 
 public class main {
 
-    public static void main (String[] args) throws InterruptedException{
+    public static void main(String[] args) {
 
-        matricesDE matrices = new matricesDE("cnf01.dat");
-        enfriamientoSimulado Greedy = new enfriamientoSimulado(matrices.getDimension(), 0, matrices.getFileName());
-
-        System.out.print(Greedy.enfriamientoSolucion(matrices.getfluxMatrix(), matrices.getdistMatrix()));
+        matricesDE matrix = new matricesDE("cnf01.dat");
+        estacionario est = new estacionario(matrix.getDimension(), matrix.getFileName(), 77383310);
+        System.out.print(est.estacionarioSolucion(matrix.getfluxMatrix(), matrix.getdistMatrix()));
 
     }
 

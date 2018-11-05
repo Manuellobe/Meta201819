@@ -14,25 +14,25 @@ public class busquedaLocal {
     private ArrayList<String> logger;
     private String file;
 
-    public busquedaLocal(int nDimension, String fileName){
+    public busquedaLocal(int nDimension, String fileName, int arandomSeed) {
 
         dimension = nDimension;
-        randomSeed = 77383310;
+        randomSeed = arandomSeed;
         logger = new ArrayList<>();
 
         file = fileName;
 
     }
 
-    public long enfriamientoSolucion(int[][] fluxMatrix, int[][] distMatrix){
+    public long busquedaSolucion(int[][] fluxMatrix, int[][] distMatrix) {
 
         ArrayList<Integer> availableTerminals = new ArrayList<>();
-
+        long startTime = System.nanoTime();
+        logger.add("Semilla utilizada: "+randomSeed+"\n");
         logger.add("Logger\n \n Generando solucion aleatoria inicial: \n - Vector solucion: ");
 
-
         // Generación de la solución inicial
-        for(int i = 0; i < dimension; i++){
+        for (int i = 0; i < dimension; i++) {
 
             // Añadimos a casa posicion su valor
             availableTerminals.add(i);
@@ -50,21 +50,22 @@ public class busquedaLocal {
         long tempCost;
 
         // Añadimos la solución inicial a las estructuras de evolucion
-        for(int i = 0; i < dimension; i++){
+        for (int i = 0; i < dimension; i++) {
 
-            logger.add( i + " | " + availableTerminals.get(i));
+            logger.add(i + " | " + availableTerminals.get(i));
             bestSolution.add(availableTerminals.get(i));
             tempSolution.add(availableTerminals.get(i));
 
         }
 
         // Calculamos el coste
-        for(int i = 0; i < dimension; i++){
+        for (int i = 0; i < dimension; i++) {
 
-            for(int j = 0; j < dimension; j++){
+            for (int j = 0; j < dimension; j++) {
 
-                if(i != j)
+                if (i != j) {
                     bestCost += fluxMatrix[i][j] * distMatrix[bestSolution.get(i)][bestSolution.get(j)];
+                }
 
             }
 
@@ -75,17 +76,16 @@ public class busquedaLocal {
         int iterations = 0;
         BitSet DLB = new BitSet(dimension);
 
-
         // Bucle global
-        while(iterations < 50000 && DLB.cardinality() != dimension){
+        while (iterations < 50000 && DLB.cardinality() != dimension) {
 
-            for(int i = 0; i < dimension; i++){
+            for (int i = 0; i < dimension; i++) {
 
                 // Comprobamos la mascara para evitar comprobar soluciones sin mejora
-                if(DLB.get(i) == false){
+                if (DLB.get(i) == false) {
 
                     // Probamos todas las combinaciones con la i actual
-                    for(int j = 0; j < dimension; j++){
+                    for (int j = 0; j < dimension; j++) {
 
                         // Permutamos posiciones || operador de intercambio
                         tempSolution.set(i, bestSolution.get(j));
@@ -93,8 +93,7 @@ public class busquedaLocal {
 
                         tempCost = 0;
 
-                        for(int k = 0; k < dimension; k++){
-
+                        for (int k = 0; k < dimension; k++) {
 
                             // Coste de la mejor solucion
                             tempCost += 2 * (fluxMatrix[k][i] * distMatrix[bestSolution.get(k)][bestSolution.get(i)]);
@@ -107,7 +106,7 @@ public class busquedaLocal {
                         }
 
                         // Si el coste es mayor, y por tanto la solucion es mejor
-                        if (tempCost > 0){
+                        if (tempCost > 0) {
 
                             logger.add("La diferencia de coste tras la permutacion es: " + tempCost + "\n");
                             logger.add("La solucion actual es mejor que la global, intercambio los valores " + i + ", " + j + ".\n");
@@ -117,15 +116,15 @@ public class busquedaLocal {
                             bestSolution.set(j, tempSolution.get(j));
                             bestCost -= tempCost;
 
+                            iterations++;
+
                             // Rehabilitamos la mascara en las posiciones i y j
                             DLB.set(i, false);
                             DLB.set(j, false);
                             break;
 
-                        }
-
-                        // En caso de que la solucion sea peor
-                        else{
+                        } // En caso de que la solucion sea peor
+                        else {
 
                             // Restablecemos la solucion temporal a la mejor solucion
                             tempSolution.set(i, bestSolution.get(i));
@@ -134,8 +133,8 @@ public class busquedaLocal {
                         }
 
                         // Aumentamos las iteraciones y comprobamos si hemos llegado al limite
-                        iterations++;
-                        if(iterations == 50000){
+
+                        if (iterations == 50000) {
 
                             logger.add("50000 iteraciones realizadas, finalizando el bucle de busqueda.\n");
                             break;
@@ -143,7 +142,7 @@ public class busquedaLocal {
 
                         // Si hemos comprobado todas las combinaciones con el valor i y no encontramos mejora
                         // La marcamos para no volver a comprobarla
-                        if(j == dimension-1){
+                        if (j == dimension - 1) {
 
                             DLB.set(i, true);
 
@@ -158,7 +157,7 @@ public class busquedaLocal {
 
         logger.add("Se ha explorado todo el espacio de busqueda.\n");
         logger.add("Solucion final:\n");
-        for(int i = 0; i < dimension; i++){
+        for (int i = 0; i < dimension; i++) {
 
             logger.add(i + " | " + bestSolution.get(i) + "\n");
 
@@ -166,16 +165,16 @@ public class busquedaLocal {
 
         logger.add("\nCoste final: " + bestCost + ".\n");
 
+        long endTime = System.nanoTime() - startTime;
+        logger.add("Tiempo de ejecucion del algoritmo: "+endTime+" ns.\n");
         // Escritura del logger a fichero
-
         FileWriter fichero = null;
         PrintWriter pw = null;
-        try
-        {
-            fichero = new FileWriter("src/Datos/LogBL" + "-" + file + "-" + randomSeed +".txt");
+        try {
+            fichero = new FileWriter("src/Datos/LogBL" + "-" + file + "-" + randomSeed + ".txt");
             pw = new PrintWriter(fichero);
 
-            for (String linea: logger) {
+            for (String linea : logger) {
                 pw.print(linea);
             }
 
@@ -184,8 +183,9 @@ public class busquedaLocal {
         } finally {
             try {
                 // Comprobamos que el fichero se ha cerrado correctamente
-                if (null != fichero)
+                if (null != fichero) {
                     fichero.close();
+                }
             } catch (Exception e2) {
                 e2.printStackTrace();
             }
@@ -194,9 +194,6 @@ public class busquedaLocal {
         // Devolvemos el mejor coste obtenido
         return bestCost;
     }
-
-
-
 
 }
 =======
