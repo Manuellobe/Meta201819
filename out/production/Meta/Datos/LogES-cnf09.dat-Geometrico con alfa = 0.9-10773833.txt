@@ -1,0 +1,661 @@
+Semilla utilizada: 10773833
+Logger
+ 
+ Generando solucion aleatoria inicial: 
+ - Vector solucion: 0 | 1451 | 532 | 223 | 1324 | 835 | 66 | 247 | 578 | 2019 | 7610 | 4611 | 21912 | 18213 | 17714 | 17115 | 20816 | 24217 | 22518 | 14919 | 14720 | 9021 | 20422 | 8223 | 24824 | 3125 | 4926 | 21027 | 4128 | 1029 | 11530 | 1131 | 22132 | 23933 | 4234 | 22935 | 6736 | 17437 | 8638 | 14239 | 6640 | 2141 | 14042 | 7243 | 5144 | 22645 | 1446 | 5447 | 18348 | 23849 | 9650 | 8151 | 11952 | 22353 | 16754 | 3655 | 7956 | 25457 | 18058 | 959 | 20660 | 23061 | 13162 | 1363 | 25264 | 18565 | 4066 | 9467 | 10868 | 15469 | 15370 | 3471 | 17072 | 19773 | 15074 | 15875 | 2676 | 6977 | 11178 | 25379 | 17880 | 10281 | 21782 | 18783 | 6084 | 4885 | 6586 | 19287 | 13088 | 16689 | 13390 | 19691 | 21592 | 24993 | 24594 | 13895 | 21896 | 7097 | 12398 | 22299 | 80100 | 77101 | 17102 | 116103 | 25104 | 68105 | 117106 | 251107 | 195108 | 194109 | 124110 | 18111 | 127112 | 188113 | 156114 | 103115 | 63116 | 27117 | 32118 | 3119 | 95120 | 212121 | 78122 | 0123 | 121124 | 160125 | 240126 | 113127 | 74128 | 91129 | 233130 | 100131 | 45132 | 220133 | 207134 | 241135 | 92136 | 33137 | 112138 | 244139 | 176140 | 56141 | 186142 | 105143 | 134144 | 200145 | 163146 | 232147 | 122148 | 181149 | 120150 | 151151 | 193152 | 8153 | 228154 | 159155 | 162156 | 146157 | 168158 | 205159 | 39160 | 152161 | 44162 | 87163 | 214164 | 136165 | 15166 | 199167 | 38168 | 213169 | 107170 | 99171 | 110172 | 98173 | 109174 | 1175 | 93176 | 58177 | 97178 | 155179 | 169180 | 216181 | 104182 | 114183 | 118184 | 198185 | 224186 | 184187 | 64188 | 190189 | 43190 | 52191 | 20192 | 50193 | 12194 | 231195 | 23196 | 4197 | 84198 | 75199 | 35200 | 161201 | 106202 | 55203 | 47204 | 2205 | 85206 | 165207 | 139208 | 71209 | 202210 | 235211 | 61212 | 148213 | 5214 | 236215 | 19216 | 189217 | 28218 | 137219 | 250220 | 211221 | 179222 | 73223 | 30224 | 126225 | 247226 | 209227 | 255228 | 88229 | 29230 | 128231 | 129232 | 101233 | 157234 | 125235 | 62236 | 141237 | 173238 | 246239 | 203240 | 7241 | 135242 | 175243 | 37244 | 143245 | 191246 | 144247 | 237248 | 227249 | 243250 | 234251 | 89252 | 172253 | 59254 | 16255 | 164
+ - Coste: 52881328
+
+Inicio bucle Enfriamiento Simulado (SE):
+Temperatura inicial: 7.9321992E7
+La diferencia de coste tras la permutacion es: 123582
+La solucion actual es mejor que la global, intercambio los valores 0, 97.
+La diferencia de coste tras la permutacion es: 84284
+La solucion actual es mejor que la global, intercambio los valores 1, 93.
+La diferencia de coste tras la permutacion es: 3740
+La solucion actual es mejor que la global, intercambio los valores 2, 92.
+La diferencia de coste tras la permutacion es: 174128
+La solucion actual es mejor que la global, intercambio los valores 3, 92.
+La diferencia de coste tras la permutacion es: 10868
+La solucion actual es mejor que la global, intercambio los valores 4, 93.
+La diferencia de coste tras la permutacion es: 80668
+La solucion actual es mejor que la global, intercambio los valores 5, 94.
+La diferencia de coste tras la permutacion es: 53146
+La solucion actual es mejor que la global, intercambio los valores 6, 92.
+La diferencia de coste tras la permutacion es: 48102
+La solucion actual es mejor que la global, intercambio los valores 7, 97.
+La diferencia de coste tras la permutacion es: 57378
+La solucion actual es mejor que la global, intercambio los valores 8, 101.
+La diferencia de coste tras la permutacion es: 5578
+La solucion actual es mejor que la global, intercambio los valores 9, 93.
+La diferencia de coste tras la permutacion es: 95204
+La solucion actual es mejor que la global, intercambio los valores 10, 100.
+La diferencia de coste tras la permutacion es: 1770
+La solucion actual es mejor que la global, intercambio los valores 11, 101.
+La diferencia de coste tras la permutacion es: 29504
+La solucion actual es mejor que la global, intercambio los valores 12, 114.
+La diferencia de coste tras la permutacion es: 28868
+La solucion actual es mejor que la global, intercambio los valores 13, 92.
+La diferencia de coste tras la permutacion es: 137150
+La solucion actual es mejor que la global, intercambio los valores 14, 111.
+La diferencia de coste tras la permutacion es: 32212
+La solucion actual es mejor que la global, intercambio los valores 15, 93.
+La diferencia de coste tras la permutacion es: 236562
+La solucion actual es mejor que la global, intercambio los valores 16, 93.
+La diferencia de coste tras la permutacion es: 46142
+La solucion actual es mejor que la global, intercambio los valores 17, 114.
+La diferencia de coste tras la permutacion es: 187764
+La solucion actual es mejor que la global, intercambio los valores 18, 94.
+La diferencia de coste tras la permutacion es: 83960
+La solucion actual es mejor que la global, intercambio los valores 19, 95.
+La diferencia de coste tras la permutacion es: 24152
+La solucion actual es mejor que la global, intercambio los valores 20, 94.
+La diferencia de coste tras la permutacion es: 66754
+La solucion actual es mejor que la global, intercambio los valores 21, 110.
+La diferencia de coste tras la permutacion es: 28876
+La solucion actual es mejor que la global, intercambio los valores 22, 118.
+La diferencia de coste tras la permutacion es: 137156
+La solucion actual es mejor que la global, intercambio los valores 23, 118.
+La diferencia de coste tras la permutacion es: 42582
+La solucion actual es mejor que la global, intercambio los valores 25, 123.
+La diferencia de coste tras la permutacion es: 120600
+La solucion actual es mejor que la global, intercambio los valores 26, 94.
+La diferencia de coste tras la permutacion es: 19282
+La solucion actual es mejor que la global, intercambio los valores 27, 111.
+La diferencia de coste tras la permutacion es: 7236
+La solucion actual es mejor que la global, intercambio los valores 28, 123.
+La diferencia de coste tras la permutacion es: 8834
+La solucion actual es mejor que la global, intercambio los valores 29, 122.
+La diferencia de coste tras la permutacion es: 373668
+La solucion actual es mejor que la global, intercambio los valores 30, 92.
+La diferencia de coste tras la permutacion es: 56730
+La solucion actual es mejor que la global, intercambio los valores 31, 113.
+La diferencia de coste tras la permutacion es: 82124
+La solucion actual es mejor que la global, intercambio los valores 32, 124.
+La diferencia de coste tras la permutacion es: 14170
+La solucion actual es mejor que la global, intercambio los valores 33, 93.
+La diferencia de coste tras la permutacion es: 21968
+La solucion actual es mejor que la global, intercambio los valores 34, 154.
+La diferencia de coste tras la permutacion es: 49230
+La solucion actual es mejor que la global, intercambio los valores 35, 93.
+La diferencia de coste tras la permutacion es: 34628
+La solucion actual es mejor que la global, intercambio los valores 36, 115.
+La diferencia de coste tras la permutacion es: 50488
+La solucion actual es mejor que la global, intercambio los valores 37, 95.
+La diferencia de coste tras la permutacion es: 161160
+La solucion actual es mejor que la global, intercambio los valores 38, 95.
+La diferencia de coste tras la permutacion es: 27712
+La solucion actual es mejor que la global, intercambio los valores 39, 95.
+La diferencia de coste tras la permutacion es: 24886
+La solucion actual es mejor que la global, intercambio los valores 40, 124.
+La diferencia de coste tras la permutacion es: 46874
+La solucion actual es mejor que la global, intercambio los valores 41, 94.
+La diferencia de coste tras la permutacion es: 44384
+La solucion actual es mejor que la global, intercambio los valores 42, 99.
+La diferencia de coste tras la permutacion es: 5416
+La solucion actual es mejor que la global, intercambio los valores 43, 101.
+La diferencia de coste tras la permutacion es: 12160
+La solucion actual es mejor que la global, intercambio los valores 44, 93.
+La diferencia de coste tras la permutacion es: 12846
+La solucion actual es mejor que la global, intercambio los valores 45, 106.
+La diferencia de coste tras la permutacion es: 44612
+La solucion actual es mejor que la global, intercambio los valores 46, 111.
+La diferencia de coste tras la permutacion es: 45660
+La solucion actual es mejor que la global, intercambio los valores 47, 93.
+La diferencia de coste tras la permutacion es: 46006
+La solucion actual es mejor que la global, intercambio los valores 48, 105.
+La diferencia de coste tras la permutacion es: 13092
+La solucion actual es mejor que la global, intercambio los valores 49, 228.
+La diferencia de coste tras la permutacion es: 1442
+La solucion actual es mejor que la global, intercambio los valores 50, 122.
+La diferencia de coste tras la permutacion es: 32246
+La solucion actual es mejor que la global, intercambio los valores 51, 106.
+La diferencia de coste tras la permutacion es: 121828
+La solucion actual es mejor que la global, intercambio los valores 52, 93.
+La diferencia de coste tras la permutacion es: 32014
+La solucion actual es mejor que la global, intercambio los valores 53, 234.
+La diferencia de coste tras la permutacion es: 14092
+La solucion actual es mejor que la global, intercambio los valores 54, 105.
+La diferencia de coste tras la permutacion es: 27116
+La solucion actual es mejor que la global, intercambio los valores 56, 96.
+La diferencia de coste tras la permutacion es: 35758
+La solucion actual es mejor que la global, intercambio los valores 57, 113.
+La diferencia de coste tras la permutacion es: 27730
+La solucion actual es mejor que la global, intercambio los valores 58, 96.
+La diferencia de coste tras la permutacion es: 52590
+La solucion actual es mejor que la global, intercambio los valores 59, 126.
+La diferencia de coste tras la permutacion es: 130510
+La solucion actual es mejor que la global, intercambio los valores 61, 95.
+La diferencia de coste tras la permutacion es: 85434
+La solucion actual es mejor que la global, intercambio los valores 62, 153.
+La diferencia de coste tras la permutacion es: 213258
+La solucion actual es mejor que la global, intercambio los valores 63, 95.
+La diferencia de coste tras la permutacion es: 195318
+La solucion actual es mejor que la global, intercambio los valores 64, 96.
+La diferencia de coste tras la permutacion es: 52138
+La solucion actual es mejor que la global, intercambio los valores 65, 107.
+La diferencia de coste tras la permutacion es: 26652
+La solucion actual es mejor que la global, intercambio los valores 66, 117.
+La diferencia de coste tras la permutacion es: 24572
+La solucion actual es mejor que la global, intercambio los valores 67, 164.
+La diferencia de coste tras la permutacion es: 22508
+La solucion actual es mejor que la global, intercambio los valores 68, 127.
+La diferencia de coste tras la permutacion es: 4564
+La solucion actual es mejor que la global, intercambio los valores 69, 117.
+La diferencia de coste tras la permutacion es: 44336
+La solucion actual es mejor que la global, intercambio los valores 70, 146.
+La diferencia de coste tras la permutacion es: 432
+La solucion actual es mejor que la global, intercambio los valores 71, 128.
+La diferencia de coste tras la permutacion es: 28754
+La solucion actual es mejor que la global, intercambio los valores 72, 145.
+La diferencia de coste tras la permutacion es: 162262
+La solucion actual es mejor que la global, intercambio los valores 73, 92.
+La diferencia de coste tras la permutacion es: 33026
+La solucion actual es mejor que la global, intercambio los valores 74, 112.
+La diferencia de coste tras la permutacion es: 7058
+La solucion actual es mejor que la global, intercambio los valores 75, 112.
+La diferencia de coste tras la permutacion es: 41980
+La solucion actual es mejor que la global, intercambio los valores 76, 101.
+La diferencia de coste tras la permutacion es: 88128
+La solucion actual es mejor que la global, intercambio los valores 77, 94.
+La diferencia de coste tras la permutacion es: 39350
+La solucion actual es mejor que la global, intercambio los valores 78, 125.
+La diferencia de coste tras la permutacion es: 17610
+La solucion actual es mejor que la global, intercambio los valores 79, 94.
+La diferencia de coste tras la permutacion es: 8584
+La solucion actual es mejor que la global, intercambio los valores 80, 130.
+La diferencia de coste tras la permutacion es: 42152
+La solucion actual es mejor que la global, intercambio los valores 82, 106.
+La diferencia de coste tras la permutacion es: 5944
+La solucion actual es mejor que la global, intercambio los valores 83, 100.
+La diferencia de coste tras la permutacion es: 12122
+La solucion actual es mejor que la global, intercambio los valores 84, 217.
+La diferencia de coste tras la permutacion es: 26082
+La solucion actual es mejor que la global, intercambio los valores 85, 130.
+La diferencia de coste tras la permutacion es: 39312
+La solucion actual es mejor que la global, intercambio los valores 86, 130.
+La diferencia de coste tras la permutacion es: 9048
+La solucion actual es mejor que la global, intercambio los valores 87, 125.
+La diferencia de coste tras la permutacion es: 24698
+La solucion actual es mejor que la global, intercambio los valores 88, 106.
+La diferencia de coste tras la permutacion es: 82256
+La solucion actual es mejor que la global, intercambio los valores 89, 130.
+La diferencia de coste tras la permutacion es: 39378
+La solucion actual es mejor que la global, intercambio los valores 90, 92.
+La diferencia de coste tras la permutacion es: 5144
+La solucion actual es mejor que la global, intercambio los valores 91, 106.
+La diferencia de coste tras la permutacion es: 97576
+La solucion actual es mejor que la global, intercambio los valores 94, 2.
+La diferencia de coste tras la permutacion es: 74342
+La solucion actual es mejor que la global, intercambio los valores 95, 77.
+La diferencia de coste tras la permutacion es: 97858
+La solucion actual es mejor que la global, intercambio los valores 96, 84.
+La diferencia de coste tras la permutacion es: 20548
+La solucion actual es mejor que la global, intercambio los valores 99, 3.
+La diferencia de coste tras la permutacion es: 145244
+La solucion actual es mejor que la global, intercambio los valores 101, 11.
+La diferencia de coste tras la permutacion es: 72418
+La solucion actual es mejor que la global, intercambio los valores 104, 71.
+La diferencia de coste tras la permutacion es: 7226
+La solucion actual es mejor que la global, intercambio los valores 107, 17.
+La diferencia de coste tras la permutacion es: 32380
+La solucion actual es mejor que la global, intercambio los valores 109, 46.
+La diferencia de coste tras la permutacion es: 14660
+La solucion actual es mejor que la global, intercambio los valores 110, 86.
+La diferencia de coste tras la permutacion es: 18472
+La solucion actual es mejor que la global, intercambio los valores 112, 87.
+La diferencia de coste tras la permutacion es: 21066
+La solucion actual es mejor que la global, intercambio los valores 114, 91.
+La diferencia de coste tras la permutacion es: 59204
+La solucion actual es mejor que la global, intercambio los valores 119, 7.
+La diferencia de coste tras la permutacion es: 72546
+La solucion actual es mejor que la global, intercambio los valores 120, 32.
+La diferencia de coste tras la permutacion es: 16484
+La solucion actual es mejor que la global, intercambio los valores 121, 34.
+La diferencia de coste tras la permutacion es: 13112
+La solucion actual es mejor que la global, intercambio los valores 126, 3.
+La diferencia de coste tras la permutacion es: 37134
+La solucion actual es mejor que la global, intercambio los valores 127, 17.
+La diferencia de coste tras la permutacion es: 76972
+La solucion actual es mejor que la global, intercambio los valores 129, 38.
+La diferencia de coste tras la permutacion es: 48236
+La solucion actual es mejor que la global, intercambio los valores 132, 2.
+La diferencia de coste tras la permutacion es: 7834
+La solucion actual es mejor que la global, intercambio los valores 133, 47.
+La diferencia de coste tras la permutacion es: 21150
+La solucion actual es mejor que la global, intercambio los valores 134, 3.
+La diferencia de coste tras la permutacion es: 30782
+La solucion actual es mejor que la global, intercambio los valores 135, 11.
+La diferencia de coste tras la permutacion es: 35536
+La solucion actual es mejor que la global, intercambio los valores 137, 25.
+La diferencia de coste tras la permutacion es: 16696
+La solucion actual es mejor que la global, intercambio los valores 139, 38.
+La diferencia de coste tras la permutacion es: 56188
+La solucion actual es mejor que la global, intercambio los valores 140, 40.
+La diferencia de coste tras la permutacion es: 10318
+La solucion actual es mejor que la global, intercambio los valores 142, 47.
+La diferencia de coste tras la permutacion es: 69804
+La solucion actual es mejor que la global, intercambio los valores 143, 13.
+La diferencia de coste tras la permutacion es: 107720
+La solucion actual es mejor que la global, intercambio los valores 146, 47.
+La diferencia de coste tras la permutacion es: 43880
+La solucion actual es mejor que la global, intercambio los valores 149, 12.
+La diferencia de coste tras la permutacion es: 48048
+La solucion actual es mejor que la global, intercambio los valores 150, 87.
+La diferencia de coste tras la permutacion es: 776
+La solucion actual es mejor que la global, intercambio los valores 153, 3.
+La diferencia de coste tras la permutacion es: 9566
+La solucion actual es mejor que la global, intercambio los valores 154, 27.
+La diferencia de coste tras la permutacion es: 1806
+La solucion actual es mejor que la global, intercambio los valores 156, 40.
+La diferencia de coste tras la permutacion es: 21538
+La solucion actual es mejor que la global, intercambio los valores 157, 7.
+La diferencia de coste tras la permutacion es: 1520
+La solucion actual es mejor que la global, intercambio los valores 158, 13.
+La diferencia de coste tras la permutacion es: 22886
+La solucion actual es mejor que la global, intercambio los valores 161, 2.
+La diferencia de coste tras la permutacion es: 33718
+La solucion actual es mejor que la global, intercambio los valores 163, 3.
+La diferencia de coste tras la permutacion es: 2972
+La solucion actual es mejor que la global, intercambio los valores 165, 4.
+La diferencia de coste tras la permutacion es: 5872
+La solucion actual es mejor que la global, intercambio los valores 167, 6.
+La diferencia de coste tras la permutacion es: 4334
+La solucion actual es mejor que la global, intercambio los valores 169, 7.
+La diferencia de coste tras la permutacion es: 39390
+La solucion actual es mejor que la global, intercambio los valores 171, 25.
+La diferencia de coste tras la permutacion es: 19094
+La solucion actual es mejor que la global, intercambio los valores 173, 27.
+La diferencia de coste tras la permutacion es: 14742
+La solucion actual es mejor que la global, intercambio los valores 175, 40.
+La diferencia de coste tras la permutacion es: 21054
+La solucion actual es mejor que la global, intercambio los valores 177, 43.
+La diferencia de coste tras la permutacion es: 24558
+La solucion actual es mejor que la global, intercambio los valores 180, 3.
+La diferencia de coste tras la permutacion es: 23704
+La solucion actual es mejor que la global, intercambio los valores 182, 4.
+La diferencia de coste tras la permutacion es: 21172
+La solucion actual es mejor que la global, intercambio los valores 183, 76.
+La diferencia de coste tras la permutacion es: 3340
+La solucion actual es mejor que la global, intercambio los valores 184, 28.
+La diferencia de coste tras la permutacion es: 5950
+La solucion actual es mejor que la global, intercambio los valores 188, 2.
+La diferencia de coste tras la permutacion es: 10436
+La solucion actual es mejor que la global, intercambio los valores 189, 2.
+La diferencia de coste tras la permutacion es: 1288
+La solucion actual es mejor que la global, intercambio los valores 191, 25.
+La diferencia de coste tras la permutacion es: 7898
+La solucion actual es mejor que la global, intercambio los valores 192, 2.
+La diferencia de coste tras la permutacion es: 44618
+La solucion actual es mejor que la global, intercambio los valores 193, 91.
+La diferencia de coste tras la permutacion es: 6570
+La solucion actual es mejor que la global, intercambio los valores 194, 27.
+La diferencia de coste tras la permutacion es: 18782
+La solucion actual es mejor que la global, intercambio los valores 196, 32.
+La diferencia de coste tras la permutacion es: 13220
+La solucion actual es mejor que la global, intercambio los valores 197, 16.
+La diferencia de coste tras la permutacion es: 33612
+La solucion actual es mejor que la global, intercambio los valores 203, 2.
+La diferencia de coste tras la permutacion es: 1348
+La solucion actual es mejor que la global, intercambio los valores 204, 86.
+La diferencia de coste tras la permutacion es: 108156
+La solucion actual es mejor que la global, intercambio los valores 211, 6.
+La diferencia de coste tras la permutacion es: 11162
+La solucion actual es mejor que la global, intercambio los valores 218, 57.
+La diferencia de coste tras la permutacion es: 546
+La solucion actual es mejor que la global, intercambio los valores 221, 40.
+La diferencia de coste tras la permutacion es: 58410
+La solucion actual es mejor que la global, intercambio los valores 222, 55.
+La diferencia de coste tras la permutacion es: 100176
+La solucion actual es mejor que la global, intercambio los valores 223, 46.
+La diferencia de coste tras la permutacion es: 115242
+La solucion actual es mejor que la global, intercambio los valores 224, 86.
+La diferencia de coste tras la permutacion es: 2806
+La solucion actual es mejor que la global, intercambio los valores 225, 73.
+La diferencia de coste tras la permutacion es: 4596
+La solucion actual es mejor que la global, intercambio los valores 235, 18.
+La diferencia de coste tras la permutacion es: 608
+La solucion actual es mejor que la global, intercambio los valores 237, 40.
+La diferencia de coste tras la permutacion es: 19322
+La solucion actual es mejor que la global, intercambio los valores 239, 73.
+La diferencia de coste tras la permutacion es: 36118
+La solucion actual es mejor que la global, intercambio los valores 244, 7.
+La diferencia de coste tras la permutacion es: 21610
+La solucion actual es mejor que la global, intercambio los valores 246, 18.
+La diferencia de coste tras la permutacion es: 18504
+La solucion actual es mejor que la global, intercambio los valores 248, 31.
+La diferencia de coste tras la permutacion es: 7252
+La solucion actual es mejor que la global, intercambio los valores 250, 73.
+La diferencia de coste tras la permutacion es: 11466
+La solucion actual es mejor que la global, intercambio los valores 0, 172.
+La diferencia de coste tras la permutacion es: 51994
+La solucion actual es mejor que la global, intercambio los valores 2, 110.
+La diferencia de coste tras la permutacion es: 304
+La solucion actual es mejor que la global, intercambio los valores 3, 196.
+La diferencia de coste tras la permutacion es: 8476
+La solucion actual es mejor que la global, intercambio los valores 6, 110.
+La diferencia de coste tras la permutacion es: 1864
+La solucion actual es mejor que la global, intercambio los valores 9, 193.
+La diferencia de coste tras la permutacion es: 8900
+La solucion actual es mejor que la global, intercambio los valores 10, 255.
+La diferencia de coste tras la permutacion es: 39974
+La solucion actual es mejor que la global, intercambio los valores 15, 208.
+La diferencia de coste tras la permutacion es: 1212
+La solucion actual es mejor que la global, intercambio los valores 19, 222.
+La diferencia de coste tras la permutacion es: 16036
+La solucion actual es mejor que la global, intercambio los valores 20, 196.
+La diferencia de coste tras la permutacion es: 36572
+La solucion actual es mejor que la global, intercambio los valores 32, 187.
+La diferencia de coste tras la permutacion es: 6788
+La solucion actual es mejor que la global, intercambio los valores 33, 114.
+La diferencia de coste tras la permutacion es: 17474
+La solucion actual es mejor que la global, intercambio los valores 34, 95.
+La diferencia de coste tras la permutacion es: 4510
+La solucion actual es mejor que la global, intercambio los valores 36, 201.
+La diferencia de coste tras la permutacion es: 12220
+La solucion actual es mejor que la global, intercambio los valores 37, 201.
+La diferencia de coste tras la permutacion es: 45222
+La solucion actual es mejor que la global, intercambio los valores 41, 222.
+La diferencia de coste tras la permutacion es: 15162
+La solucion actual es mejor que la global, intercambio los valores 43, 157.
+La diferencia de coste tras la permutacion es: 20644
+La solucion actual es mejor que la global, intercambio los valores 44, 201.
+La diferencia de coste tras la permutacion es: 13070
+La solucion actual es mejor que la global, intercambio los valores 45, 246.
+La diferencia de coste tras la permutacion es: 4886
+La solucion actual es mejor que la global, intercambio los valores 48, 182.
+La diferencia de coste tras la permutacion es: 13248
+La solucion actual es mejor que la global, intercambio los valores 49, 155.
+La diferencia de coste tras la permutacion es: 41654
+La solucion actual es mejor que la global, intercambio los valores 51, 236.
+La diferencia de coste tras la permutacion es: 20880
+La solucion actual es mejor que la global, intercambio los valores 56, 223.
+50000 iteraciones realizadas, finalizando el bucle de busqueda.
+La diferencia de coste tras la permutacion es: 46404
+La solucion actual es mejor que la global, intercambio los valores 64, 207.
+La diferencia de coste tras la permutacion es: 37410
+La solucion actual es mejor que la global, intercambio los valores 66, 95.
+La diferencia de coste tras la permutacion es: 1714
+La solucion actual es mejor que la global, intercambio los valores 71, 236.
+La diferencia de coste tras la permutacion es: 11496
+La solucion actual es mejor que la global, intercambio los valores 76, 236.
+La diferencia de coste tras la permutacion es: 988
+La solucion actual es mejor que la global, intercambio los valores 78, 225.
+La diferencia de coste tras la permutacion es: 6114
+La solucion actual es mejor que la global, intercambio los valores 103, 45.
+La diferencia de coste tras la permutacion es: 7448
+La solucion actual es mejor que la global, intercambio los valores 111, 88.
+La diferencia de coste tras la permutacion es: 4540
+La solucion actual es mejor que la global, intercambio los valores 115, 76.
+La diferencia de coste tras la permutacion es: 24104
+La solucion actual es mejor que la global, intercambio los valores 127, 12.
+La diferencia de coste tras la permutacion es: 48478
+La solucion actual es mejor que la global, intercambio los valores 129, 59.
+La diferencia de coste tras la permutacion es: 506
+La solucion actual es mejor que la global, intercambio los valores 132, 28.
+La diferencia de coste tras la permutacion es: 2824
+La solucion actual es mejor que la global, intercambio los valores 134, 76.
+La diferencia de coste tras la permutacion es: 6512
+La solucion actual es mejor que la global, intercambio los valores 160, 70.
+La diferencia de coste tras la permutacion es: 42642
+La solucion actual es mejor que la global, intercambio los valores 243, 88.
+Se ha explorado todo el espacio de busqueda.
+Solucion final:
+0 | 25
+1 | 148
+2 | 142
+3 | 219
+4 | 23
+5 | 98
+6 | 21
+7 | 46
+8 | 100
+9 | 242
+10 | 255
+11 | 83
+12 | 238
+13 | 225
+14 | 49
+15 | 210
+16 | 28
+17 | 91
+18 | 232
+19 | 163
+20 | 74
+21 | 136
+22 | 32
+23 | 71
+24 | 43
+25 | 200
+26 | 227
+27 | 223
+28 | 206
+29 | 155
+30 | 177
+31 | 230
+32 | 86
+33 | 77
+34 | 6
+35 | 51
+36 | 125
+37 | 195
+38 | 54
+39 | 133
+40 | 88
+41 | 13
+42 | 10
+43 | 185
+44 | 251
+45 | 115
+46 | 63
+47 | 81
+48 | 40
+49 | 192
+50 | 167
+51 | 36
+52 | 197
+53 | 8
+54 | 157
+55 | 159
+56 | 64
+57 | 146
+58 | 172
+59 | 236
+60 | 0
+61 | 94
+62 | 111
+63 | 170
+64 | 121
+65 | 108
+66 | 153
+67 | 3
+68 | 18
+69 | 150
+70 | 234
+71 | 57
+72 | 113
+73 | 69
+74 | 187
+75 | 128
+76 | 221
+77 | 103
+78 | 60
+79 | 31
+80 | 191
+81 | 215
+82 | 182
+83 | 245
+84 | 180
+85 | 212
+86 | 217
+87 | 118
+88 | 160
+89 | 123
+90 | 189
+91 | 106
+92 | 26
+93 | 193
+94 | 52
+95 | 20
+96 | 50
+97 | 12
+98 | 24
+99 | 151
+100 | 4
+101 | 84
+102 | 75
+103 | 35
+104 | 201
+105 | 120
+106 | 55
+107 | 47
+108 | 2
+109 | 188
+110 | 122
+111 | 147
+112 | 186
+113 | 202
+114 | 228
+115 | 176
+116 | 33
+117 | 183
+118 | 92
+119 | 241
+120 | 207
+121 | 220
+122 | 45
+123 | 22
+124 | 233
+125 | 90
+126 | 248
+127 | 82
+128 | 239
+129 | 252
+130 | 196
+131 | 78
+132 | 117
+133 | 95
+134 | 80
+135 | 154
+136 | 27
+137 | 158
+138 | 229
+139 | 226
+140 | 124
+141 | 194
+142 | 246
+143 | 203
+144 | 70
+145 | 149
+146 | 175
+147 | 37
+148 | 132
+149 | 134
+150 | 116
+151 | 208
+152 | 96
+153 | 218
+154 | 222
+155 | 171
+156 | 48
+157 | 41
+158 | 166
+159 | 11
+160 | 53
+161 | 16
+162 | 76
+163 | 65
+164 | 156
+165 | 89
+166 | 243
+167 | 237
+168 | 144
+169 | 254
+170 | 17
+171 | 143
+172 | 249
+173 | 109
+174 | 67
+175 | 141
+176 | 59
+177 | 62
+178 | 29
+179 | 164
+180 | 102
+181 | 173
+182 | 101
+183 | 129
+184 | 244
+185 | 112
+186 | 34
+187 | 72
+188 | 209
+189 | 240
+190 | 126
+191 | 14
+192 | 30
+193 | 79
+194 | 135
+195 | 179
+196 | 211
+197 | 204
+198 | 152
+199 | 44
+200 | 253
+201 | 87
+202 | 214
+203 | 5
+204 | 61
+205 | 235
+206 | 247
+207 | 127
+208 | 139
+209 | 73
+210 | 165
+211 | 119
+212 | 66
+213 | 42
+214 | 85
+215 | 145
+216 | 38
+217 | 105
+218 | 231
+219 | 190
+220 | 184
+221 | 140
+222 | 131
+223 | 199
+224 | 181
+225 | 97
+226 | 58
+227 | 93
+228 | 110
+229 | 99
+230 | 107
+231 | 213
+232 | 130
+233 | 15
+234 | 9
+235 | 68
+236 | 56
+237 | 19
+238 | 174
+239 | 137
+240 | 250
+241 | 7
+242 | 178
+243 | 161
+244 | 1
+245 | 162
+246 | 39
+247 | 205
+248 | 168
+249 | 169
+250 | 216
+251 | 104
+252 | 114
+253 | 138
+254 | 198
+255 | 224
+
+Coste final: 44952564.
+Tiempo de ejecucion del algoritmo: 2593501948 ns.
