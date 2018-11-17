@@ -137,8 +137,9 @@ public class estacionario {
         // INICIO BUCLE PRINCIPAL
 
         int iteraciones = 0;
+        int generacionesSinMejora = 0;
         int pos1, pos2, pos3, pos4;
-        while(iteraciones < 50000){
+        while(iteraciones < 50000 && generacionesSinMejora != 10){
 
             // Generar 4 posiciones aleatorias distintas para el torneo binario
 
@@ -176,6 +177,17 @@ public class estacionario {
             //generar posicion inicial
             //generar posicion final
             ArrayList<Integer> firstSon, secondSon, firstUsedValues, secondUsedValues;
+            firstSon = new ArrayList<>(dimension);
+            secondSon = new ArrayList<>(dimension);
+            firstUsedValues = new ArrayList<>(dimension);
+            secondUsedValues = new ArrayList<>(dimension);
+
+            for(int i = 0; i < dimension; i++){
+
+                firstSon.add(-1);
+                secondSon.add(-1);
+
+            }
 
             int firstPos, secondPos;
             do{
@@ -191,7 +203,72 @@ public class estacionario {
 
             for(int i = firstPos; i <= secondPos; i++){
 
-                //firstSon.add(firstWinner.)
+                firstSon.set(i, firstWinner.get(i));
+                firstUsedValues.add(firstWinner.get(i));
+
+            }
+
+            int alocPos = secondPos+1;
+
+            for(int i = firstPos; i < dimension; i++){
+
+                if(!firstUsedValues.contains(secondWinner.get(i))){
+
+                    firstSon.set(alocPos%dimension, secondWinner.get(i));
+                    firstUsedValues.add(secondWinner.get(i));
+                    alocPos++;
+
+                }
+
+
+            }
+
+            for(int i = 0; i < firstPos; i++){
+
+                if(!firstUsedValues.contains(secondWinner.get(i))){
+
+                    firstSon.set(alocPos%dimension, secondWinner.get(i));
+                    firstUsedValues.add(secondWinner.get(i));
+                    alocPos++;
+
+                }
+
+            }
+
+
+
+            //Segundo hijo
+            for(int i = firstPos; i <= secondPos; i++){
+
+                secondSon.set(i, secondWinner.get(i));
+                secondUsedValues.add(secondWinner.get(i));
+
+            }
+
+            alocPos = secondPos+1;
+
+            for(int i = firstPos; i < dimension; i++){
+
+                if(!secondUsedValues.contains(firstWinner.get(i))){
+
+                    secondSon.set(alocPos%dimension, firstWinner.get(i));
+                    secondUsedValues.add(firstWinner.get(i));
+                    alocPos++;
+
+                }
+
+
+            }
+
+            for(int i = 0; i < firstPos; i++){
+
+                if(!secondUsedValues.contains(firstWinner.get(i))){
+
+                    secondSon.set(alocPos%dimension, firstWinner.get(i));
+                    secondUsedValues.add(firstWinner.get(i));
+                    alocPos++;
+
+                }
 
             }
 
