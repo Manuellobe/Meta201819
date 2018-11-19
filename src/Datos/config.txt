@@ -1,0 +1,12 @@
+archivo cnf01.dat-cnf10.dat:
+cnf01.dat
+algoritmo est, gen:
+est
+semilla:
+77383310
+iteraciones:
+50000
+prob. mutacion:
+0.02
+prob cruce:
+0.02
