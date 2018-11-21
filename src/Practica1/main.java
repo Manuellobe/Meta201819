@@ -11,11 +11,6 @@ public class main {
 
     public static void main(String[] args) throws java.io.IOException {
 
-        matricesDE matrix = new matricesDE("cnf01.dat");
-        estacionario est = new estacionario(matrix.getDimension(), matrix.getFileName(), 77383310, 50, 100);
-        System.out.print(est.estacionarioSolucion(matrix.getfluxMatrix(), matrix.getdistMatrix()));
-
-        /*
         File dataFile = new File("src/Datos/config.txt");
 
         BufferedReader br = new BufferedReader(new FileReader(dataFile));
@@ -36,16 +31,32 @@ public class main {
         int iteraciones = Integer.parseInt(br.readLine());
         br.readLine();
 
-        int probMut = Integer.parseInt(br.readLine());
+        int pop = Integer.parseInt(br.readLine());
         br.readLine();
 
-        int probCruce = Integer.parseInt(br.readLine());
+        int iteSinMejora = Integer.parseInt(br.readLine());
+        br.readLine();
 
+        float probMut = Float.parseFloat(br.readLine());
+        br.readLine();
 
-        //TODO parametrizar las funciones
-
+        float probCruce = Float.parseFloat(br.readLine());
         br.close();
-        */
+
+        matricesDE matrix = new matricesDE(file);
+
+        if(alg == "est"){
+
+            estacionario est = new estacionario(matrix.getDimension(), matrix.getFileName(), seed, iteraciones, pop, iteSinMejora, probMut);
+            System.out.print(est.estacionarioSolucion(matrix.getfluxMatrix(), matrix.getdistMatrix()));
+
+        }else{
+
+            generacional gen = new generacional(matrix.getDimension(), matrix.getFileName(), seed, iteraciones, pop, iteSinMejora, probMut, probCruce);
+            System.out.print(gen.generacionalSolucion(matrix.getfluxMatrix(), matrix.getdistMatrix()));
+
+        }
+
     }
 
 }

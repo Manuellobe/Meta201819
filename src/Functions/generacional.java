@@ -8,34 +8,42 @@ import java.util.Random;
 
 public class generacional {
     private int dimension;
+    private int maxIteraciones;
     private int randomSeed;
     private int nPopulation;
     private ArrayList<Integer> bestSol;
     private int bestPos;
     private int bestCost;
+    private int worstCost;
+    private int worstPos;
     private int maxIteSinMejora;
+    private float probMut;
+    private float probCruce;
     private ArrayList<String> logger;
     private ArrayList<ArrayList<Integer>> poblacion;
     private ArrayList<Integer> costList;
-    private ArrayList<Pair<Integer, Integer>> buffer;
     private String file;
 
-    public generacional(int nDimension, String fileName, int arandomSeed, int population, int maxIteracionesSinMejora){
+    public generacional(int nDimension, String fileName, int nIte, int arandomSeed, int population, int maxIteracionesSinMejora, float nProbMut, float nProbCruce ){
 
         dimension = nDimension;
+        maxIteraciones = nIte;
         randomSeed = arandomSeed;
         nPopulation = population;
         bestCost = 99999;
         bestPos = -1;
+        worstCost = 0;
+        worstPos = -1;
         bestSol = new ArrayList<>();
         maxIteSinMejora = maxIteracionesSinMejora;
+        probCruce = nProbCruce;
+        probMut = nProbMut;
 
         poblacion = new ArrayList<>();
         logger = new ArrayList<>();
         file = fileName;
 
         costList = new ArrayList<>();
-        buffer = new ArrayList<>();
 
     }
 
@@ -45,15 +53,6 @@ public class generacional {
         Random rand = new Random(randomSeed);
         ArrayList<Integer> colisions;
         int cost, cost2;
-        int minCostBuffer = 0;
-
-        ArrayList<Integer> firstWinner, secondWinner;
-
-        for(int i = 0; i < 5; i++){
-
-            buffer.add(new Pair<Integer, Integer>(0,0));
-
-        }
 
         // INICIO GENERACION POBLACION INICIAL
         for(int j = 0; j < nPopulation;j++){
@@ -128,17 +127,10 @@ public class generacional {
                 bestPos = j;
             }
 
-            if(cost > minCostBuffer){
+            if(cost > worstCost){
 
-                for(int i = 4; i >= 0; i--){
-
-                    if(cost > buffer.get(i).getValue()){
-                        buffer.set(i, new Pair<>(j, cost));
-                        minCostBuffer = buffer.get(0).getValue();
-                        break;
-                    }
-
-                }
+                worstCost = cost;
+                worstPos = j;
 
             }
 
@@ -155,19 +147,21 @@ public class generacional {
 
         int iteraciones = 0;
         int generacionesSinMejora = 0;
-        int pos1, pos2, pos3, pos4;
         ArrayList<Integer> elitesInNewGen;
 
         ArrayList<ArrayList<Integer>> nextGen;
         ArrayList<Integer> nextGenCostList;
 
+        boolean bestCostUpdated;
+
         // INICIO BUCLE PRINCIPAL
-        while(iteraciones < 50000 && generacionesSinMejora != maxIteSinMejora){
+        while(iteraciones < maxIteraciones && generacionesSinMejora != maxIteSinMejora){
 
             int match;
             elitesInNewGen = new ArrayList<>();
             nextGen = new ArrayList<>();
             nextGenCostList = new ArrayList<>();
+            bestCostUpdated = false;
 
             for(int i = 0; i < nPopulation; i++){
 
@@ -203,7 +197,7 @@ public class generacional {
 
                 crossProb = rand.nextFloat();
 
-                if(crossProb < 0.7f){
+                if(crossProb < probMut){
 
                     do{
                         match = Math.abs(rand.nextInt(nPopulation));
@@ -211,8 +205,14 @@ public class generacional {
 
                     for(int m = 0; m < elitesInNewGen.size(); m++){
 
+                        if(elitesInNewGen.isEmpty())
+                            break;
+
                         if(elitesInNewGen.get(m) == i)
                             elitesInNewGen.remove(m);
+
+                        if(elitesInNewGen.isEmpty())
+                            break;
 
                         if(elitesInNewGen.get(m) == match)
                             elitesInNewGen.remove(m);
@@ -325,7 +325,7 @@ public class generacional {
                     for(int n = 0; n < dimension; n++){
 
                         mutProb = rand.nextFloat();
-                        if(mutProb <= 0.001* dimension){
+                        if(mutProb <= probMut* dimension){
 
                             int mutPos;
                             do{
@@ -372,8 +372,8 @@ public class generacional {
                         for (int k = 0; k < dimension; k++) {
 
                             if (n != k) {
-                                cost += fluxMatrix[n][k] * distMatrix[poblacion.get(i).get(n)][poblacion.get(i).get(k)];
-                                cost2 += fluxMatrix[n][k] * distMatrix[poblacion.get(match).get(n)][poblacion.get(match).get(k)];
+                                cost += fluxMatrix[n][k] * distMatrix[nextGen.get(i).get(n)][nextGen.get(i).get(k)];
+                                cost2 += fluxMatrix[n][k] * distMatrix[nextGen.get(match).get(n)][nextGen.get(match).get(k)];
                             }
 
                         }
@@ -381,123 +381,60 @@ public class generacional {
                     }
 
                     //TODO: Comprobar si el nuevo coste es mejor que el mejor o peor que el peor y reemplazar con su respectivo
-                    //TODO: Eliminar el buffer, puesto que es innecesario
                     //TODO: Logger en ambos algoritmos
                     //TODO: Coger parametros del fichero y gg :D
 
-                }
+                    // Reemplazo respecto a la poblacion actual
 
-            }
+                    nextGen.set(i, firstSon);
+                    nextGenCostList.set(i, cost);
 
+                    nextGen.set(match, firstSon);
+                    nextGenCostList.set(match, cost2);
 
-
-
-
-            // Reemplazo respecto a la poblacion actual
-
-            // Comprobacion con el primer ganador
-            if(buffer.size() >= 1 && cost < buffer.get(buffer.size()-1).getValue()){
-                int posToInsert = buffer.get(buffer.size()-1).getKey();
-                poblacion.set(posToInsert, firstWinner);
-                costList.set(posToInsert, cost);
-                buffer.remove(buffer.size()-1);
-                for(int i = 0; i < buffer.size()-1; i++){
-                    if(cost > buffer.get(i).getValue()) {
-                        buffer.add(i + 1, new Pair<Integer, Integer>(posToInsert, cost));
-                        break;
-                    }
-                }
-                if(cost < bestCost){
-                    bestCost = cost;
-                    bestPos = posToInsert;
-                    generacionesSinMejora = -1;
-                }
-            }else if(buffer.size() >= 2 && cost < buffer.get(buffer.size()-2).getValue()){
-                int posToInsert = buffer.get(buffer.size()-2).getKey();
-                poblacion.set(posToInsert, firstWinner);
-                costList.set(posToInsert, cost);
-                buffer.remove(buffer.size()-2);
-                for(int i = 0; i < buffer.size()-1; i++){
-                    if(cost > buffer.get(i).getValue()) {
-                        buffer.add(i + 1, new Pair<Integer, Integer>(posToInsert, cost));
-                        break;
-                    }
-                }
-                if(cost < bestCost){
-                    bestCost = cost;
-                    bestPos = posToInsert;
-                    generacionesSinMejora = -1;
-                }
-            }
-
-            // Comprobacion con el segundo ganador
-            if(buffer.size() >= 1 && cost2 < buffer.get(buffer.size()-1).getValue()){
-                int posToInsert = buffer.get(buffer.size()-1).getKey();
-                poblacion.set(posToInsert, secondWinner);
-                costList.set(posToInsert, cost2);
-                buffer.remove(buffer.size()-1);
-                for(int i = 0; i < buffer.size()-1; i++){
-                    if(cost2 > buffer.get(i).getValue()) {
-                        buffer.add(i + 1, new Pair<Integer, Integer>(posToInsert, cost2));
-                        break;
-                    }
-                }
-                if(cost2 < bestCost){
-                    bestCost = cost2;
-                    bestPos = posToInsert;
-                    generacionesSinMejora = -1;
-                }
-            }else if(buffer.size() >= 2 && cost2 < buffer.get(buffer.size()-2).getValue()){
-                int posToInsert = buffer.get(buffer.size()-2).getKey();
-                poblacion.set(posToInsert, secondWinner);
-                costList.set(posToInsert, cost2);
-                buffer.remove(buffer.size()-2);
-                for(int i = 0; i < buffer.size()-1; i++){
-                    if(cost2 > buffer.get(i).getValue()) {
-                        buffer.add(i + 1, new Pair<Integer, Integer>(posToInsert, cost2));
-                        break;
-                    }
-                }
-                if(cost2 < bestCost){
-                    bestCost = cost2;
-                    bestPos = posToInsert;
-                    generacionesSinMejora = -1;
-                }
-            }
-
-            if(buffer.size() <= 1){
-
-                minCostBuffer = 0;
-                int actualCost;
-
-
-                for(int i = 0; i < costList.size(); i++){
-
-                    actualCost = costList.get(i);
-
-                    if(buffer.size() < 5){
-
-                        buffer.add(new Pair<>(i, actualCost));
-                        if(actualCost > minCostBuffer)
-                            minCostBuffer = actualCost;
-
-                    }
-
-                    else if(actualCost > minCostBuffer){
-
-                        for(int j = 4; j >= 0; j--){
-
-                            if(actualCost > buffer.get(j).getValue()){
-                                buffer.set(j, new Pair<Integer, Integer>(i, actualCost));
-                                minCostBuffer = buffer.get(0).getValue();
-                                break;
-                            }
-
+                    // Comprobamos si el mejor de los dos es mejor que el mejor coste
+                    // Asimismo, tambien comprobamos si el peor es peor que el peor coste
+                    if(cost <= cost2){
+                        if(cost < bestCost){
+                            bestCost = cost;
+                            bestPos = i;
+                            bestSol = nextGen.get(i);
+                            generacionesSinMejora = -1;
+                            bestCostUpdated = true;
                         }
-
+                        if(cost2 > worstCost){
+                            worstCost = cost2;
+                            worstPos = match;
+                        }
+                    }else{
+                        if(cost2 < bestPos){
+                            bestCost = cost2;
+                            bestPos = match;
+                            generacionesSinMejora = -1;
+                            bestCostUpdated = true;
+                            bestSol = nextGen.get(match);
+                        }
+                        if(cost > worstCost){
+                            worstCost = cost;
+                            worstPos = i;
+                        }
                     }
 
                 }
+
+            }
+
+            if(elitesInNewGen.size() == 0 && !bestCostUpdated){
+
+                nextGen.set(worstPos, bestSol);
+                nextGenCostList.set(worstPos, bestCost);
+
+            }
+
+            for(int i = 0; i < nPopulation; i++){
+
+                poblacion.set(i, nextGen.get(i));
+                costList.set(i, nextGenCostList.get(i));
 
             }
 

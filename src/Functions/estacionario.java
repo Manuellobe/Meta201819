@@ -10,25 +10,32 @@ import java.util.Random;
 public class estacionario {
 
     private int dimension;
+    private int maxIteraciones;
     private int randomSeed;
     private int nPopulation;
     private int bestPos;
     private int bestCost;
     private int maxIteSinMejora;
+    private float probMutacion;
     private ArrayList<String> logger;
     private ArrayList<ArrayList<Integer>> poblacion;
     private ArrayList<Integer> costList;
     private ArrayList<Pair<Integer, Integer>> buffer;
     private String file;
 
-    public estacionario(int nDimension, String fileName, int arandomSeed, int population, int maxIteracionesSinMejora){
+    public estacionario(int nDimension, String fileName, int nIte, int arandomSeed, int population, int maxIteracionesSinMejora, float nProbMutacion){
 
         dimension = nDimension;
+        maxIteraciones = nIte;
         randomSeed = arandomSeed;
         nPopulation = population;
         bestCost = 99999;
         bestPos = -1;
         maxIteSinMejora = maxIteracionesSinMejora;
+        probMutacion = nProbMutacion;
+
+        bestCost = 999999;
+        bestPos = -1;
 
         poblacion = new ArrayList<>();
         logger = new ArrayList<>();
@@ -152,7 +159,7 @@ public class estacionario {
         int iteraciones = 0;
         int generacionesSinMejora = 0;
         int pos1, pos2, pos3, pos4;
-        while(iteraciones < 50000 && generacionesSinMejora != maxIteSinMejora){
+        while(iteraciones < maxIteraciones && generacionesSinMejora != maxIteSinMejora){
 
             // Generar 4 posiciones aleatorias distintas para el torneo binario
 
@@ -233,7 +240,6 @@ public class estacionario {
 
                 }
 
-
             }
 
             for(int i = 0; i < firstPos; i++){
@@ -296,7 +302,7 @@ public class estacionario {
             for(int i = 0; i < dimension; i++){
 
                  mutProb = rand.nextFloat();
-                 if(mutProb <= 0.001* dimension){
+                 if(mutProb <= mutProb* dimension){
 
                      int mutPos;
                      do{
@@ -316,7 +322,7 @@ public class estacionario {
             for(int i = 0; i < dimension; i++){
 
                 mutProb = rand.nextFloat();
-                if(mutProb <= 0.001* dimension){
+                if(mutProb <= probMutacion* dimension){
 
                     int mutPos;
                     do{
