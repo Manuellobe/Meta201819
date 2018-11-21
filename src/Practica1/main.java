@@ -12,9 +12,10 @@ public class main {
     public static void main(String[] args) throws java.io.IOException {
 
         matricesDE matrix = new matricesDE("cnf01.dat");
-        estacionario est = new estacionario(matrix.getDimension(), matrix.getFileName(), 77383310);
+        estacionario est = new estacionario(matrix.getDimension(), matrix.getFileName(), 77383310, 50, 100);
         System.out.print(est.estacionarioSolucion(matrix.getfluxMatrix(), matrix.getdistMatrix()));
 
+        /*
         File dataFile = new File("src/Datos/config.txt");
 
         BufferedReader br = new BufferedReader(new FileReader(dataFile));
@@ -44,6 +45,7 @@ public class main {
         //TODO parametrizar las funciones
 
         br.close();
+        */
     }
 
 }

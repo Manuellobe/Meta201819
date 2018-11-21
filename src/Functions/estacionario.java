@@ -12,17 +12,23 @@ public class estacionario {
     private int dimension;
     private int randomSeed;
     private int nPopulation;
+    private int bestPos;
+    private int bestCost;
+    private int maxIteSinMejora;
     private ArrayList<String> logger;
     private ArrayList<ArrayList<Integer>> poblacion;
     private ArrayList<Integer> costList;
     private ArrayList<Pair<Integer, Integer>> buffer;
     private String file;
 
-    public estacionario(int nDimension, String fileName, int arandomSeed){
+    public estacionario(int nDimension, String fileName, int arandomSeed, int population, int maxIteracionesSinMejora){
 
         dimension = nDimension;
         randomSeed = arandomSeed;
-        nPopulation = 50;
+        nPopulation = population;
+        bestCost = 99999;
+        bestPos = -1;
+        maxIteSinMejora = maxIteracionesSinMejora;
 
         poblacion = new ArrayList<>();
         logger = new ArrayList<>();
@@ -90,7 +96,7 @@ public class estacionario {
 
                 int randPos;
                 do {
-                    randPos = rand.nextInt(dimension);
+                    randPos = Math.abs(rand.nextInt(dimension));
                 } while (randPos == colisions.get(0));
 
                 availableTerminals.set(colisions.get(0), availableTerminals.get(randPos));
@@ -117,12 +123,19 @@ public class estacionario {
 
             costList.add(cost);
 
+            if (cost < bestCost) {
+
+                bestCost = cost;
+                bestPos = j;
+
+            }
+
             if(cost > minCostBuffer){
 
                 for(int i = 4; i >= 0; i--){
 
                     if(cost > buffer.get(i).getValue()){
-                        buffer.set(i, new Pair<Integer, Integer>(i, cost));
+                        buffer.set(i, new Pair<>(j, cost));
                         minCostBuffer = buffer.get(0).getValue();
                         break;
                     }
@@ -139,22 +152,22 @@ public class estacionario {
         int iteraciones = 0;
         int generacionesSinMejora = 0;
         int pos1, pos2, pos3, pos4;
-        while(iteraciones < 50000 && generacionesSinMejora != 10){
+        while(iteraciones < 50000 && generacionesSinMejora != maxIteSinMejora){
 
             // Generar 4 posiciones aleatorias distintas para el torneo binario
 
-            pos1 = rand.nextInt(dimension);
+            pos1 = Math.abs(rand.nextInt(dimension));
 
             do{
-                pos2 = rand.nextInt(dimension);
+                pos2 = Math.abs(rand.nextInt(dimension));
             }while(pos1 == pos2);
 
             do{
-                pos3 = rand.nextInt(dimension);
+                pos3 = Math.abs(rand.nextInt(dimension));
             }while(pos3 == pos2 || pos3 == pos1);
 
             do{
-                pos4 = rand.nextInt(dimension);
+                pos4 = Math.abs(rand.nextInt(dimension));
             }while(pos4 == pos3 || pos4 == pos2 || pos4 == pos1);
 
 
@@ -173,9 +186,9 @@ public class estacionario {
 
             // Operador de cruce
 
-            //Cruce de orden
-            //generar posicion inicial
-            //generar posicion final
+            // Cruce de orden
+            // generar posicion inicial
+            // generar posicion final
             ArrayList<Integer> firstSon, secondSon, firstUsedValues, secondUsedValues;
             firstSon = new ArrayList<>(dimension);
             secondSon = new ArrayList<>(dimension);
@@ -237,7 +250,7 @@ public class estacionario {
 
 
 
-            //Segundo hijo
+            // Segundo hijo
             for(int i = firstPos; i <= secondPos; i++){
 
                 secondSon.set(i, secondWinner.get(i));
@@ -277,7 +290,47 @@ public class estacionario {
 
             // Operador de mutacion
 
-            //TODO Operador de mutacion
+            float mutProb;
+
+            // Mutacion en el primer hijo
+            for(int i = 0; i < dimension; i++){
+
+                 mutProb = rand.nextFloat();
+                 if(mutProb <= 0.001* dimension){
+
+                     int mutPos;
+                     do{
+                         mutPos = Math.abs(rand.nextInt(dimension));
+
+                     }while(mutPos == i);
+
+                     int aux = firstSon.get(i);
+                     firstSon.set(i, firstSon.get(mutPos));
+                     firstSon.set(mutPos, aux);
+
+                 }
+
+            }
+
+            // Mutacion en el segundo hijo
+            for(int i = 0; i < dimension; i++){
+
+                mutProb = rand.nextFloat();
+                if(mutProb <= 0.001* dimension){
+
+                    int mutPos;
+                    do{
+                        mutPos = Math.abs(rand.nextInt(dimension));
+
+                    }while(mutPos == i);
+
+                    int aux = firstSon.get(i);
+                    secondSon.set(i, secondSon.get(mutPos));
+                    secondSon.set(mutPos, aux);
+
+                }
+
+            }
 
             // Recalcular coste
 
@@ -301,44 +354,72 @@ public class estacionario {
             // Reemplazo respecto a la poblacion actual
 
             // Comprobacion con el primer ganador
-            if(cost < buffer.get(buffer.size()-1).getValue()){
+            if(buffer.size() >= 1 && cost < buffer.get(buffer.size()-1).getValue()){
                 int posToInsert = buffer.get(buffer.size()-1).getKey();
                 poblacion.set(posToInsert, firstWinner);
                 costList.set(posToInsert, cost);
                 buffer.remove(buffer.size()-1);
                 for(int i = 0; i < buffer.size()-1; i++){
-                    if(cost > buffer.get(i).getValue())
-                        buffer.add(i+1, new Pair<Integer, Integer>(posToInsert, cost));
+                    if(cost > buffer.get(i).getValue()) {
+                        buffer.add(i + 1, new Pair<Integer, Integer>(posToInsert, cost));
+                        break;
+                    }
                 }
-            }else if(cost < buffer.get(buffer.size()-2).getValue()){
+                if(cost < bestCost){
+                    bestCost = cost;
+                    bestPos = posToInsert;
+                    generacionesSinMejora = -1;
+                }
+            }else if(buffer.size() >= 2 && cost < buffer.get(buffer.size()-2).getValue()){
                 int posToInsert = buffer.get(buffer.size()-2).getKey();
                 poblacion.set(posToInsert, firstWinner);
                 costList.set(posToInsert, cost);
                 buffer.remove(buffer.size()-2);
                 for(int i = 0; i < buffer.size()-1; i++){
-                    if(cost > buffer.get(i).getValue())
-                        buffer.add(i+1, new Pair<Integer, Integer>(posToInsert, cost));
+                    if(cost > buffer.get(i).getValue()) {
+                        buffer.add(i + 1, new Pair<Integer, Integer>(posToInsert, cost));
+                        break;
+                    }
+                }
+                if(cost < bestCost){
+                    bestCost = cost;
+                    bestPos = posToInsert;
+                    generacionesSinMejora = -1;
                 }
             }
 
             // Comprobacion con el segundo ganador
-            if(cost2 < buffer.get(buffer.size()-1).getValue()){
+            if(buffer.size() >= 1 && cost2 < buffer.get(buffer.size()-1).getValue()){
                 int posToInsert = buffer.get(buffer.size()-1).getKey();
                 poblacion.set(posToInsert, secondWinner);
                 costList.set(posToInsert, cost2);
                 buffer.remove(buffer.size()-1);
                 for(int i = 0; i < buffer.size()-1; i++){
-                    if(cost2 > buffer.get(i).getValue())
-                        buffer.add(i+1, new Pair<Integer, Integer>(posToInsert, cost2));
+                    if(cost2 > buffer.get(i).getValue()) {
+                        buffer.add(i + 1, new Pair<Integer, Integer>(posToInsert, cost2));
+                        break;
+                    }
                 }
-            }else if(cost2 < buffer.get(buffer.size()-2).getValue()){
+                if(cost2 < bestCost){
+                    bestCost = cost2;
+                    bestPos = posToInsert;
+                    generacionesSinMejora = -1;
+                }
+            }else if(buffer.size() >= 2 && cost2 < buffer.get(buffer.size()-2).getValue()){
                 int posToInsert = buffer.get(buffer.size()-2).getKey();
                 poblacion.set(posToInsert, secondWinner);
                 costList.set(posToInsert, cost2);
                 buffer.remove(buffer.size()-2);
                 for(int i = 0; i < buffer.size()-1; i++){
-                    if(cost2 > buffer.get(i).getValue())
-                        buffer.add(i+1, new Pair<Integer, Integer>(posToInsert, cost2));
+                    if(cost2 > buffer.get(i).getValue()) {
+                        buffer.add(i + 1, new Pair<Integer, Integer>(posToInsert, cost2));
+                        break;
+                    }
+                }
+                if(cost2 < bestCost){
+                    bestCost = cost2;
+                    bestPos = posToInsert;
+                    generacionesSinMejora = -1;
                 }
             }
 
@@ -378,11 +459,12 @@ public class estacionario {
 
             }
 
+            generacionesSinMejora++;
             iteraciones++;
+
         }
 
-
-        return 0;
+        return bestCost;
     }
 
 
