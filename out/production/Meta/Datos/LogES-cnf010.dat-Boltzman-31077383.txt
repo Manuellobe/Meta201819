@@ -1,0 +1,14 @@
+Semilla utilizada: 31077383
+Logger
+ 
+ Generando solucion aleatoria inicial: 
+ - Vector solucion: 
+ - Coste: 0
+
+Inicio bucle Enfriamiento Simulado (SE):
+Temperatura inicial: 0.0
+Se ha explorado todo el espacio de busqueda.
+Solucion final:
+
+Coste final: 0.
+Tiempo de ejecucion del algoritmo: 89436 ns.

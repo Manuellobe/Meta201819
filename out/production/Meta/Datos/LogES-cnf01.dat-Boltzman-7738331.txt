@@ -1,3 +1,4 @@
+Semilla utilizada: 7738331
 Logger
  
  Generando solucion aleatoria inicial: 
@@ -34041,3 +34042,4 @@ Solucion final:
 21 | 18
 
 Coste final: 8032.
+Tiempo de ejecucion del algoritmo: 116966974 ns.
