@@ -290,7 +290,6 @@ public class estacionario {
                
 
             } else {
-
                 //TODO Cruce PMX
 
                 // Paso 3: Copiar los valores del rango del primer padre
@@ -298,61 +297,63 @@ public class estacionario {
 
                     firstSon.set(i, firstWinner.get(i));
                     firstUsedValues.add(firstWinner.get(i));
-
+                    
                 }
 
-                // Paso 4: Una vez hecho esto, partiendo del mismo rango buscar comprobar si no son comunes y aÃ±adirlos a la nueva soluciÃ³n (HIJO 1)
-                int usedValues = 0;
+                // Paso 4: Una vez hecho esto, partiendo del mismo rango buscar comprobar si no son comunes y añadirlos a la nueva solución (HIJO 1)
+
+                
                 int loc_padre2 = firstPos;
-
                 do {
-
-                    if (!firstUsedValues.contains(secondWinner.get(loc_padre2))) {
-
+                    
+                    if(!firstUsedValues.contains(secondWinner.get(loc_padre2))){
+                        
+                        // Buscamos la posición en le corresponde
+                        int in_Unit = firstWinner.get(loc_padre2);
+                        int Unit_val = firstWinner.get(loc_padre2);
                         boolean freeSpot = false;
-                        int nextUnit = firstWinner.get(loc_padre2);
 
                         do {
 
-                            if (firstSon.get(nextUnit) == (-1)) {
+                            if (firstSon.get(in_Unit) == (-1)) {
                                 freeSpot = true;
                             } else {
 
                                 int j = 0;
                                 boolean located = false;
 
+                                in_Unit = Unit_val;
                                 do {
-                                    if (secondWinner.get(j) == nextUnit) {
+                                    if (secondWinner.get(j) == in_Unit) {
                                         located = true;
                                     } else {
                                         j++;
                                     }
                                 } while ((!located) && (j < dimension));
 
-                                nextUnit = firstWinner.get(j);
+                                Unit_val = firstWinner.get(j);
+                                in_Unit = j;
                             }
 
                         } while (!freeSpot);
 
-                        firstSon.set(nextUnit, secondWinner.get(loc_padre2));
+                        firstWinner.set(in_Unit, secondWinner.get(loc_padre2));
                         firstUsedValues.add(secondWinner.get(loc_padre2));
-                        usedValues++;
                     }
 
                     int nextValue = (loc_padre2 + 1) % dimension;
                     loc_padre2 = nextValue;
-
-                } while (usedValues < dimension);
+                    
+                } while (firstUsedValues.size() < dimension);
 
                 // Paso 5: HIJO 2
-                usedValues = 0;
                 loc_padre2 = firstPos;
 
                 for (int i = firstPos; i <= secondPos; i++) {
 
                     secondSon.set(i, secondWinner.get(i));
                     secondUsedValues.add(secondWinner.get(i));
-
+                    
                 }
 
                 do {
@@ -361,7 +362,8 @@ public class estacionario {
 
                         boolean freeSpot = false;
                         int nextUnit = secondWinner.get(loc_padre2);
-
+                        int nextLocation = secondWinner.get(loc_padre2);
+                        
                         do {
 
                             if (secondSon.get(nextUnit) == (-1)) {
@@ -370,30 +372,32 @@ public class estacionario {
 
                                 int j = 0;
                                 boolean located = false;
-
+                                nextUnit = nextLocation;
+                                
                                 do {
                                     if (firstWinner.get(j) == nextUnit) {
                                         located = true;
                                     } else {
                                         j++;
                                     }
-                                } while ((!located) && (j < dimension));
+                                } while ((!located) && (j < dimension-1));
 
-                                nextUnit = secondWinner.get(j);
+                                nextUnit = j;
+                                nextLocation = secondWinner.get(j);
                             }
 
                         } while (!freeSpot);
 
                         secondSon.set(nextUnit, firstWinner.get(loc_padre2));
                         secondUsedValues.add(firstWinner.get(loc_padre2));
-                        usedValues++;
                     }
 
                     int nextValue = (loc_padre2 + 1) % dimension;
                     loc_padre2 = nextValue;
 
-                } while (usedValues < dimension);
+                } while (secondUsedValues.size() < dimension);
 
+            
             }
             // Operador de mutacion
             float mutProb;
